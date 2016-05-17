@@ -1,6 +1,6 @@
 # Custom border
 
-wocss custom-border mixin allows you to add borders with customizable width and height, e.g:
+The `wocss-tools-custom-border` module contains a mixin that allows you to add borders with customizable width and height, e.g:
 
 Install using npm:
 
