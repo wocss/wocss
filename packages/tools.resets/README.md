@@ -1,6 +1,6 @@
 # Resets
 
-wocss resets mixin allows reset all the things.
+The `wocss-tools-resets` module contains a mixin that allows reset all the things.
 
 Install using npm:
 
