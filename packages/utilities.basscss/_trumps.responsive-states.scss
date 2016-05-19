@@ -23,6 +23,12 @@
 //  --------------------------------------------------------------------------
 
 @include utility('hide') {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+
   @each $key, $value in $breakpoints {
     @include desde($key) {
       @include suffix($key) {
@@ -33,11 +39,3 @@
 }
 
 @include utility('display-none') { display: none !important; }
-
-@include utility('hide') {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute !important;
-  width: 1px;
-}
