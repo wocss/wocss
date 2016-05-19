@@ -1,0 +1,16 @@
+//  Type scale
+//  ==========================================================================
+//
+//  doc: http://www.basscss.com/#basscss-type-scale
+
+
+//  Font sizes
+//  --------------------------------------------------------------------------
+
+@include utility('fz-inherit') { font-size: inherit; }
+
+@each $fz, $value in $font-sizes {
+  @include utility('fz-' + $fz) {
+    font-size: $value;
+  }
+}

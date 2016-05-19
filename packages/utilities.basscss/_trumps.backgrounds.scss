@@ -1,0 +1,51 @@
+//  Backgrounds
+//  ==========================================================================
+//
+// 	doc: https://github.com/basscss/addons/tree/master/modules/background-colors
+
+
+@include utility('bg-primary') { background-color: $color-primary; }
+@include utility('bg-secondary') { background-color: $color-secondary; }
+@include utility('bg-tertiary') { background-color: $color-tertiary; }
+
+@include utility('bg-facebook') { background-color: $facebook; }
+@include utility('bg-twitter') { background-color: $twitter; }
+@include utility('bg-google') { background-color: $google; }
+@include utility('bg-youtube') { background-color: $youtube; }
+
+@include utility('bg-text') { background-color: $text; }
+@include utility('bg-default') { background-color: $default; }
+@include utility('bg-error') { background-color: $error; }
+@include utility('bg-warning') { background-color: $warning; }
+@include utility('bg-info') { background-color: $info; }
+@include utility('bg-success') { background-color: $success; }
+
+@include utility('bg-black') { background-color: $black; }
+@include utility('bg-gray') { background-color: $gray; }
+@include utility('bg-silver') { background-color: $silver; }
+@include utility('bg-white') { background-color: $white; }
+
+@include utility('bg-aqua') { background-color: $aqua; }
+@include utility('bg-blue') { background-color: $blue; }
+@include utility('bg-navy') { background-color: $navy; }
+@include utility('bg-teal') { background-color: $teal; }
+@include utility('bg-green') { background-color: $green; }
+@include utility('bg-olive') { background-color: $olive; }
+@include utility('bg-lime') { background-color: $lime; }
+
+@include utility('bg-yellow') { background-color: $yellow; }
+@include utility('bg-orange') { background-color: $orange; }
+@include utility('bg-red') { background-color: $red; }
+@include utility('bg-fuchsia') { background-color: $fuchsia; }
+@include utility('bg-purple') { background-color: $purple; }
+@include utility('bg-maroon') { background-color: $maroon; }
+
+@include utility('bg-darken-1') { background-color: $darken-1; }
+@include utility('bg-darken-2') { background-color: $darken-2; }
+@include utility('bg-darken-3') { background-color: $darken-3; }
+@include utility('bg-darken-4') { background-color: $darken-4; }
+
+@include utility('bg-lighten-1') { background-color: $lighten-1; }
+@include utility('bg-lighten-2') { background-color: $lighten-2; }
+@include utility('bg-lighten-3') { background-color: $lighten-3; }
+@include utility('bg-lighten-4') { background-color: $lighten-4; }

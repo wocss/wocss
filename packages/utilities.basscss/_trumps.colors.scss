@@ -1,0 +1,49 @@
+//  Colors
+//  ==========================================================================
+//
+// 	doc: https://github.com/basscss/addons/tree/master/modules/colors
+
+
+@include utility('primary') { color: $color-primary; }
+@include utility('secondary') { color: $color-secondary; }
+@include utility('tertiary') { color: $color-tertiary; }
+
+@include utility('facebook') { color: $facebook; }
+@include utility('twitter') { color: $twitter; }
+@include utility('google') { color: $google; }
+@include utility('youtube') { color: $youtube; }
+
+@include utility('text') { color: $text; }
+@include utility('default') { color: $default; }
+@include utility('error') { color: $error; }
+@include utility('warning') { color: $warning; }
+@include utility('info') { color: $info; }
+@include utility('success') { color: $success; }
+
+@include utility('black') { color: $black; }
+@include utility('gray') { color: $gray; }
+@include utility('silver') { color: $silver; }
+@include utility('white') { color: $white; }
+
+@include utility('aqua') { color: $aqua; }
+@include utility('blue') { color: $blue; }
+@include utility('navy') { color: $navy; }
+@include utility('teal') { color: $teal; }
+@include utility('green') { color: $green; }
+@include utility('olive') { color: $olive; }
+@include utility('lime') { color: $lime; }
+
+@include utility('yellow') { color: $yellow; }
+@include utility('orange') { color: $orange; }
+@include utility('red') { color: $red; }
+@include utility('fuchsia') { color: $fuchsia; }
+@include utility('purple') { color: $purple; }
+@include utility('maroon') { color: $maroon; }
+
+@include utility('color-inherit') { color: inherit; }
+
+
+//  Opacity
+//  --------------------------------------------------------------------------
+
+@include utility('muted') { opacity: .5; }

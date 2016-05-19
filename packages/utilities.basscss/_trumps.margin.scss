@@ -1,0 +1,35 @@
+//  Margin
+//  ==========================================================================
+//
+//  doc: http://www.basscss.com/#basscss-margin
+
+
+@include utility('m0') { margin: 0; }
+@include utility('mt0') { margin-top: 0; }
+@include utility('mr0') { margin-right: 0; }
+@include utility('mb0') { margin-bottom: 0; }
+@include utility('ml0') { margin-left: 0; }
+
+@each $space, $value in $spaces {
+  @include utility('m' + $space) { margin: $value; }
+  @include utility('mt' + $space) { margin-top: $value; }
+  @include utility('mr' + $space) { margin-right: $value; }
+  @include utility('mb' + $space) { margin-bottom: $value; }
+  @include utility('ml' + $space) { margin-left: $value; }
+
+  @include utility('my' + $space) {
+    margin-top:    $value;
+    margin-bottom: $value;
+  }
+  @include utility('mx' + $space) {
+    margin-left:  $value;
+    margin-right: $value;
+  }
+}
+
+@include utility('mx-auto') {
+  margin-left: auto;
+  margin-right: auto;
+}
+@include utility('ml-auto') { margin-left: auto; }
+@include utility('mr-auto') { margin-right: auto; }

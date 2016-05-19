@@ -1,0 +1,54 @@
+//  Borders
+//  ==========================================================================
+//
+// 	doc: http://www.basscss.com/#basscss-border
+
+
+//  Borders
+//  --------------------------------------------------------------------------
+
+@include utility('border') {
+  border-style: solid;
+  border-width: $base-border-width;
+  border-color: $base-border-color;
+}
+
+@include utility('border-top') {
+  border-top-style: solid;
+  border-top-width: $base-border-width;
+  border-top-color: $base-border-color;
+}
+
+@include utility('border-right') {
+  border-right-style: solid;
+  border-right-width: $base-border-width;
+  border-right-color: $base-border-color;
+}
+
+@include utility('border-bottom') {
+  border-bottom-style: solid;
+  border-bottom-width: $base-border-width;
+  border-bottom-color: $base-border-color;
+}
+
+@include utility('border-left') {
+  border-left-style: solid;
+  border-left-width: $base-border-width;
+  border-left-color: $base-border-color;
+}
+
+@include utility('border-none') { border: 0; }
+
+
+//  Border Radii
+//  --------------------------------------------------------------------------
+
+@include utility('rounded') { border-radius: $base-border-radius; }
+@include utility('circle') { border-radius: 50%; }
+
+@include utility('rounded-top') { border-radius: $base-border-radius $base-border-radius 0 0; }
+@include utility('rounded-right') { border-radius: 0 $base-border-radius $base-border-radius 0; }
+@include utility('rounded-bottom') { border-radius: 0 0 $base-border-radius $base-border-radius; }
+@include utility('rounded-left') { border-radius: $base-border-radius 0 0 $base-border-radius; }
+
+@include utility('not-rounded') { border-radius: 0; }

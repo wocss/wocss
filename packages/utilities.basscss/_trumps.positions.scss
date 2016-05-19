@@ -1,0 +1,19 @@
+//  Positions
+//  ==========================================================================
+//
+//  doc: http://www.basscss.com/#basscss-position
+
+
+@include utility('absolute') { position: absolute; }
+@include utility('fixed') { position: fixed; }
+@include utility('relative') { position: relative; }
+
+@include utility('bottom-0') { bottom: 0; }
+@include utility('left-0') { left: 0; }
+@include utility('right-0') { right: 0; }
+@include utility('top-0') { top: 0; }
+
+@include utility('z1') { z-index: 1; }
+@include utility('z2') { z-index: 2; }
+@include utility('z3') { z-index: 3; }
+@include utility('z4') { z-index: 4; }

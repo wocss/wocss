@@ -1,0 +1,46 @@
+//  Typography
+//  ==========================================================================
+//
+//   doc: http://www.basscss.com/#basscss-typography
+
+
+@each $fw, $value in $font-weights {
+  @include utility($fw) {
+    font-weight: $value;
+  }
+}
+
+@include utility('line-height-1') {
+  line-height 1;
+}
+
+@include utility('italic') { font-style: italic; }
+
+@include utility('capitalize') { text-transform: capitalize; }
+@include utility('lowercase') { text-transform: lowercase; }
+@include utility('uppercase') { text-transform: uppercase; }
+
+@include utility('left-align') { text-align: left; }
+@include utility('center') { text-align: center; }
+@include utility('right-align') { text-align: right; }
+@include utility('justify') { text-align: justify; }
+
+@include utility('nowrap') { white-space: nowrap; }
+@include utility('break-word') { word-wrap: break-word; }
+
+@include utility('font-familiy-inherit') { font-family: inherit; }
+@include utility('text-decoration-none') { text-decoration: none; }
+
+@include utility('truncate') {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@include utility('list-reset') {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
