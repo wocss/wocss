@@ -1,0 +1,21 @@
+{
+  "name": "wocss-trumps-utilities",
+  "version": "0.0.1",
+  "description": "wocss helper classes",
+  "main": "_trumps.utilities.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/trumps.utilities.git"
+  },
+  "keywords": [
+    "wocss",
+    "css",
+    "oocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/trumps.utilities/issues"
+  },
+  "homepage": "https://github.com/wocss/trumps.utilities#readme"
+}
