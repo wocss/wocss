@@ -1,0 +1,52 @@
+//  Media
+//  ==========================================================================
+
+
+//  Variables
+//  --------------------------------------------------------------------------
+
+$media-object-gutters: (
+  '1': $space-1,
+  '2': $space-2,
+  '3': $space-3,
+  '4': $space-4
+) !default;
+
+
+//  Object media
+//  --------------------------------------------------------------------------
+
+@include object('media') {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+
+  @each $gutter-number, $gutter in $media-object-gutters {
+    @include modifier('gutter-' + $gutter-number) {
+      padding: $gutter;
+
+      @include modifies-element('body') {
+        margin: 0 0 0 $gutter;
+      }
+
+      @include state('reverse') {
+        @include modifies-element('body') {
+          margin: 0 $gutter 0 0;
+        }
+      }
+    }
+  }
+
+  @include state('reverse') {
+    flex-direction: row-reverse;
+  }
+
+  @include element('left') {
+    order: 1;
+  }
+
+  @include element('body') {
+    flex: 1 1 0;
+    order: 2;
+  }
+}
