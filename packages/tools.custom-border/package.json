@@ -1,0 +1,24 @@
+{
+  "name": "wocss-tools-custom-border",
+  "version": "0.0.1",
+  "description": "wocss' custom-border mixin",
+  "main": "_tools.custom-border.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/tools.custom-border.git"
+  },
+  "keywords": [
+    "wocss",
+    "css",
+    "oocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/tools.custom-border/issues"
+  },
+  "homepage": "https://github.com/wocss/tools.custom-border#readme"
+}
