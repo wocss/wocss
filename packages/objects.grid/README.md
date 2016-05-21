@@ -46,3 +46,8 @@ For example:
   <div class="o-cols__col"></div>
 </div>
 ```
+
+## Dependencies
+
+* [wocss-settings-defaults](https://github.com/wocss/settings.default)
+* [wocss-tools-mixins](https://github.com/wocss/tools.mixins)
