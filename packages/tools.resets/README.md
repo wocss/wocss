@@ -42,3 +42,7 @@ Removes any styles that were previously set on links, even that annoying text-de
   // more code
 }
 ```
+
+## Dependencies
+
+* [wocss-settings-defaults](https://github.com/wocss/settings.default)
