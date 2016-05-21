@@ -1,0 +1,21 @@
+{
+  "name": "wocss-objects-wrapper",
+  "version": "0.0.1",
+  "description": "wocss' wrapper object",
+  "main": "_objects.wrapper.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/objects.wrapper.git"
+  },
+  "keywords": [
+    "wocss",
+    "css",
+    "oocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/objects.wrapper/issues"
+  },
+  "homepage": "https://github.com/wocss/objects.wrapper#readme"
+}
