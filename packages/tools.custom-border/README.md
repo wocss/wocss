@@ -10,7 +10,7 @@ $ npm install --save wocss-tools-custom-border
 
 ## Usage
 
-### custom-border-right($height, $width, $gutter, $color)
+### custom-border-right($height, $width, $spacing, $color)
 
 Add a custom border right
 
@@ -22,7 +22,7 @@ li {
 }
 ```
 
-### custom-border-bottom($height, $width, $gutter, $color)
+### custom-border-bottom($height, $width, $spacing, $color)
 
 Add a custom border bottom
 
