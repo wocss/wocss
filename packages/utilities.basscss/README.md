@@ -31,3 +31,8 @@ $ npm install --save wocss-trumps-utilities
 ### [Type scale](http://www.basscss.com/#basscss-type-scale)
 
 ### [Typography](http://www.basscss.com/#basscss-typography)
+
+## Dependencies
+
+* [wocss-settings-defaults](https://github.com/wocss/settings.default)
+* [wocss-tools-mixins](https://github.com/wocss/tools.mixins)
