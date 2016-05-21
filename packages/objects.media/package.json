@@ -1,0 +1,21 @@
+{
+  "name": "wocss-objects-media",
+  "version": "0.0.1",
+  "description": "wocss' media object",
+  "main": "_objects.media.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/objects.media.git"
+  },
+  "keywords": [
+    "wocss",
+    "css",
+    "oocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/objects.media/issues"
+  },
+  "homepage": "https://github.com/wocss/objects.media#readme"
+}
