@@ -12,23 +12,7 @@ $ npm install --save wocss-objects-cols
 
 ## Usage
 
-### cols (object)
-
-#### modifiers
-
-* stretch
-* middle
-* gutter-# (replace # with a number 1 ~ 6)
-
-### col (element)
-
-#### modifiers
-
-All modifiers may be prefixed with `@breakpoint` (replace breakpoint with xs, sm, md, lg, xl)
-
-* auto
-* fit
-* `#` (replace # with a number 1 ~ 12)
+Basic usage of the Cols object uses the required classes:
 
 ```html
 <div class="o-cols">
@@ -36,6 +20,24 @@ All modifiers may be prefixed with `@breakpoint` (replace breakpoint with xs, sm
   <div class="o-cols__col"></div>
 </div>
 ```
+
+### Modifiers
+
+#### cols
+
+* `o-cols--stretch` columns with same height.
+* `o-cols--middle` columns with vertical centering.
+* `o-cols--gutter-[1|2|3|4|5|6]` alter spacing between columns.
+
+#### col
+
+All modifiers may be prefixed with `@[xs|sm|md|lg|xl]`.
+
+* `o-cols__col--auto`
+* `o-cols__col--fit` this column will take up the remaining space available.
+* `o-cols__col--[1|2|3|...|12]` if you want to change the size of a single column, you can use one the following classes.
+
+For example:
 
 ```html
 <div class="o-cols o-cols--gutter-3">
