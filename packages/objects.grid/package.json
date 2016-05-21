@@ -1,0 +1,21 @@
+{
+  "name": "wocss-objects-cols",
+  "version": "0.0.1",
+  "description": "wocss system grid",
+  "main": "_objects.cols.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/objects.cols.git"
+  },
+  "keywords": [
+    "wocss",
+    "css",
+    "oocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/objects.cols/issues"
+  },
+  "homepage": "https://github.com/wocss/objects.cols#readme"
+}
