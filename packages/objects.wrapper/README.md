@@ -17,3 +17,8 @@ Use `.o-wrapper` for a responsive fixed width container.
   <!-- here your content -->
 </div>
 ```
+
+## Dependencies
+
+* [wocss-settings-defaults](https://github.com/wocss/settings.default)
+* [wocss-tools-mixins](https://github.com/wocss/tools.mixins)
