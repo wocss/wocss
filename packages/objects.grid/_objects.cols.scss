@@ -68,7 +68,7 @@
       }
     }
 
-    @each $size, $value in $breakpoints {
+    @each $size, $value in $cols-breakpoints {
       @for $col-number from 1 through $cols-number {
         @include modifier('auto') {
           @include suffix($size) {
