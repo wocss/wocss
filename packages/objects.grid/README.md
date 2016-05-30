@@ -47,6 +47,27 @@ For example:
 </div>
 ```
 
+### Breakpoints
+
+| Key | Value |
+|-----|-------|
+| xs | `320px` |
+| sm | `480px` |
+| md | `768px` |
+| lg | `992px` |
+| xl | `1200px` |
+
+### Gutters
+
+| Key | Value |
+|-----|-------|
+| 1 | `.25rem` |
+| 2 | `.5rem` |
+| 3 | `1rem` |
+| 4 | `2rem` |
+| 5 | `4rem` |
+| 6 | `8rem` |
+
 ## Dependencies
 
 * [wocss-settings-defaults](https://github.com/wocss/settings.default)
