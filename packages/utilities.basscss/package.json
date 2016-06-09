@@ -1,6 +1,6 @@
 {
   "name": "wocss-trumps-utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wocss helper classes",
   "main": "_trumps.utilities.scss",
   "repository": {
