@@ -1,3 +1,7 @@
+>## This Project Is Deprecated
+
+>It is part of  [wocss-tools-mixins](https://github.com/wocss/tools.mixins#resets).
+
 # Resets
 
 The `wocss-tools-resets` module contains a mixin that allows reset all the things.
