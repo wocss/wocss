@@ -33,3 +33,7 @@ li {
   }
 }
 ```
+
+## Dependencies
+
+* [wocss-settings-defaults](https://github.com/wocss/settings.default)
