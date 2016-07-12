@@ -28,6 +28,7 @@ With a tool like [webpack](https://webpack.github.io/) you can write:
 ## WOCSS
 
 This starts from a personal need
+
 * use [bemit](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) naming convention.
 * use  [ITCSS](http://csswizardry.net/talks/2014/11/itcss-dafed.pdf) architecture.
 * use  [namespacing](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/).
