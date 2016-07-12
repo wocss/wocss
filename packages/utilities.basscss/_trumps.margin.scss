@@ -1,8 +1,10 @@
-//  Margin
-//  ==========================================================================
-//
-//  doc: http://www.basscss.com/#basscss-margin
+/*------------------------------------*\
+  #Margin
+\*------------------------------------*/
 
+/**
+ * doc: http://www.basscss.com/#basscss-margin
+ */
 
 @include utility('m0') { margin: 0; }
 @include utility('mt0') { margin-top: 0; }

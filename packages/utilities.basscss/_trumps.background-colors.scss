@@ -1,8 +1,10 @@
-//  Backgrounds
-//  ==========================================================================
-//
-// 	doc: https://github.com/basscss/addons/tree/master/modules/background-colors
+/*------------------------------------*\
+  #Backgrounds
+\*------------------------------------*/
 
+/**
+ * doc: https://github.com/basscss/addons/tree/master/modules/background-colors
+ */
 
 @include utility('bg-primary') { background-color: $color-primary; }
 @include utility('bg-secondary') { background-color: $color-secondary; }

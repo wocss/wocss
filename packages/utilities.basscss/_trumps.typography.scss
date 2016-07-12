@@ -1,8 +1,10 @@
-//  Typography
-//  ==========================================================================
-//
-//   doc: http://www.basscss.com/#basscss-typography
+/*------------------------------------*\
+  #Typography
+\*------------------------------------*/
 
+/**
+ * doc: http://www.basscss.com/#basscss-typography
+ */
 
 @each $fw, $value in $font-weights {
   @include utility($fw) {

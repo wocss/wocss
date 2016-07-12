@@ -1,12 +1,13 @@
-//  Responsive States
-//  ==========================================================================
-//
-// 	doc: http://www.basscss.com/docs/responsive-states/
+/*------------------------------------*\
+  #Responsive States
+\*------------------------------------*/
+
+/**
+ * doc: http://www.basscss.com/docs/responsive-states/
+ */
 
 
 //  Show
-//  --------------------------------------------------------------------------
-
 
 @include utility('show') {
   @each $key, $value in $breakpoints {
@@ -19,8 +20,10 @@
 }
 
 
+
+
+
 //  Hide
-//  --------------------------------------------------------------------------
 
 @include utility('hide') {
   clip: rect(1px, 1px, 1px, 1px);

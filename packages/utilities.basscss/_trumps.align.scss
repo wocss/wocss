@@ -1,8 +1,10 @@
-//  Align
-//  ==========================================================================
-//
-//  source: http://www.basscss.com/#basscss-align
+/*------------------------------------*\
+  #Align
+\*------------------------------------*/
 
+/**
+ * source: http://www.basscss.com/#basscss-align
+ */
 
 @include utility('align-baseline') { vertical-align: baseline; }
 @include utility('align-top') { vertical-align: top; }

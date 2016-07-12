@@ -1,8 +1,10 @@
-//  Padding
-//  ==========================================================================
-//
-//  doc: http://www.basscss.com/#basscss-padding
+/*------------------------------------*\
+  #Padding
+\*------------------------------------*/
 
+/**
+ * doc: http://www.basscss.com/#basscss-padding
+ */
 
 @include utility('p0') { padding: 0; }
 @include utility('pt0') { padding-top: 0; }

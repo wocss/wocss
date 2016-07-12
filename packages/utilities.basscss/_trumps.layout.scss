@@ -1,11 +1,13 @@
-//  Positions
-//  ==========================================================================
-//
-//  doc: http://www.basscss.com/#basscss-layout
+/*------------------------------------*\
+  #Positions
+\*------------------------------------*/
+
+/**
+ * doc: http://www.basscss.com/#basscss-layout
+ */
 
 
 //  Display
-//  --------------------------------------------------------------------------
 
 @include utility('inline') { display: inline; }
 @include utility('block') { display: block; }
@@ -14,15 +16,19 @@
 @include utility('table-cell') { display: table-cell; }
 
 
+
+
+
 //  Overflow
-//  --------------------------------------------------------------------------
 
 @include utility('overflow-hidden') { overflow: hidden; }
 @include utility('overflow-scroll') { overflow: scroll; }
 @include utility('overflow-auto') { overflow: auto; }
 
 
+
+
+
 //  Max Width
-//  --------------------------------------------------------------------------
 
 @include utility('fit') { max-width: 100%; }

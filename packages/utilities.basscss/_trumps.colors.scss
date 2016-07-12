@@ -1,8 +1,10 @@
-//  Colors
-//  ==========================================================================
-//
-// 	doc: https://github.com/basscss/addons/tree/master/modules/colors
+/*------------------------------------*\
+  #Colors
+\*------------------------------------*/
 
+/**
+ * doc: https://github.com/basscss/addons/tree/master/modules/colors
+ */
 
 @include utility('primary') { color: $color-primary; }
 @include utility('secondary') { color: $color-secondary; }
@@ -41,9 +43,5 @@
 @include utility('maroon') { color: $maroon; }
 
 @include utility('color-inherit') { color: inherit; }
-
-
-//  Opacity
-//  --------------------------------------------------------------------------
 
 @include utility('muted') { opacity: .5; }

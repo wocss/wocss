@@ -1,8 +1,10 @@
-//  Positions
-//  ==========================================================================
-//
-//  doc: http://www.basscss.com/#basscss-position
+/*------------------------------------*\
+  #Positions
+\*------------------------------------*/
 
+/**
+ * doc: http://www.basscss.com/#basscss-position
+ */
 
 @include utility('absolute') { position: absolute; }
 @include utility('fixed') { position: fixed; }

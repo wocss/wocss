@@ -1,11 +1,13 @@
-//  Borders
-//  ==========================================================================
-//
-// 	doc: http://www.basscss.com/#basscss-border
+/*------------------------------------*\
+  #Borders
+\*------------------------------------*/
+
+/**
+ * doc: http://www.basscss.com/#basscss-border
+ */
 
 
-//  Borders
-//  --------------------------------------------------------------------------
+//  borders
 
 @include utility('border') {
   border-style: solid;
@@ -40,8 +42,10 @@
 @include utility('border-none') { border: 0; }
 
 
+
+
+
 //  Border Radii
-//  --------------------------------------------------------------------------
 
 @include utility('rounded') { border-radius: $base-border-radius; }
 @include utility('circle') { border-radius: 50%; }
