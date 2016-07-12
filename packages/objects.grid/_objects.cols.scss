@@ -1,19 +1,35 @@
-//  Cols
-//  ==========================================================================
+/*------------------------------------*\
+  #Cols
+\*------------------------------------*/
+
+//  variables
+
+$cols-number: 12 !default;
+
+$cols-gutters: (
+  '1': $space-1,
+  '2': $space-2,
+  '3': $space-3,
+  '4': $space-4,
+  '5': $space-5,
+  '6': $space-6
+) !default;
+
+$cols-breakpoints: (
+  'xs': $breakpoint-xs,
+  'sm': $breakpoint-sm,
+  'md': $breakpoint-md,
+  'lg': $breakpoint-lg,
+  'xl': $breakpoint-xl
+) !default;
 
 
-//  Imports
-//  --------------------------------------------------------------------------
-
-@import "./objects.cols-variables";
-@import "./objects.cols-functions";
-@import "./objects.cols-mixins";
 
 
-//  Object cols
-//  --------------------------------------------------------------------------
-//
-// [1] make negative margins work properly
+
+/**
+ * [1] make negative margins work properly
+ */
 
 @include object('cols') {
   align-items: flex-start;
@@ -45,7 +61,7 @@
     }
   }
 
-  @include element('col') { // compartir flex none
+  @include element('col') {
     flex: 1 1 0;
     min-height: 0;
     min-width: 0;
