@@ -7,9 +7,11 @@
     "url": "git+https://github.com/wocss/starter-kit.git"
   },
   "keywords": [
-    "wocss",
+    "bemit",
     "css",
-    "oocss"
+    "itcss",
+    "sass",
+    "wocss"
   ],
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "ISC",
