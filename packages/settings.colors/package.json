@@ -1,0 +1,23 @@
+{
+  "name": "wocss-settings-colors",
+  "version": "1.0.0",
+  "description": "Colors variables",
+  "main": "_settings.colors.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/settings.colors.git"
+  },
+  "keywords": [
+    "bemit",
+    "css",
+    "itcss",
+    "sass",
+    "wocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/settings.colors/issues"
+  },
+  "homepage": "https://github.com/wocss/settings.colors#readme"
+}
