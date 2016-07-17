@@ -6,25 +6,33 @@
  * doc: http://www.basscss.com/#basscss-padding
  */
 
+// variables
+
+$padding-trumps-spaces: $spaces !default;
+
+
+
+
+
 @include utility('p0') { padding: 0; }
 @include utility('pt0') { padding-top: 0; }
 @include utility('pr0') { padding-right: 0; }
 @include utility('pb0') { padding-bottom: 0; }
 @include utility('pl0') { padding-left: 0; }
 
-@each $space, $value in $spaces {
-  @include utility('p' + $space) { padding: $value; }
-  @include utility('pt' + $space) { padding-top: $value; }
-  @include utility('pr' + $space) { padding-right: $value; }
-  @include utility('pb' + $space) { padding-bottom: $value; }
-  @include utility('pl' + $space) { padding-left: $value; }
+@each $space-number, $space-value in $padding-trumps-spaces {
+  @include utility('p' + $space-number) { padding: $space-value; }
+  @include utility('pt' + $space-number) { padding-top: $space-value; }
+  @include utility('pr' + $space-number) { padding-right: $space-value; }
+  @include utility('pb' + $space-number) { padding-bottom: $space-value; }
+  @include utility('pl' + $space-number) { padding-left: $space-value; }
 
-  @include utility('py' + $space) {
-    padding-top:    $value;
-    padding-bottom: $value;
+  @include utility('py' + $space-number) {
+    padding-top:    $space-value;
+    padding-bottom: $space-value;
   }
-  @include utility('px' + $space) {
-    padding-left:  $value;
-    padding-right: $value;
+  @include utility('px' + $space-number) {
+    padding-left:  $space-value;
+    padding-right: $space-value;
   }
 }

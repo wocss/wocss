@@ -8,8 +8,8 @@
 
 @include utility('fz-inherit') { font-size: inherit; }
 
-@each $fz, $value in $font-sizes {
-  @include utility('fz-' + $fz) {
-    font-size: $value;
+@each $fz-key, $fz-value in $font-sizes {
+  @include utility('fz-' + $fz-key) {
+    font-size: $fz-value;
   }
 }

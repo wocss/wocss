@@ -6,13 +6,20 @@
  * doc: http://www.basscss.com/docs/responsive-states/
  */
 
+// variables
 
-//  Show
+$responsive-states-trumps-breakpoints: $breakpoints !default;
+
+
+
+
+
+// show
 
 @include utility('show') {
-  @each $key, $value in $breakpoints {
-    @include hasta($key) {
-      @include suffix($key) {
+  @each $breakpoint-key, $breakpoint-value in $responsive-states-trumps-breakpoints {
+    @include hasta($breakpoint-value) {
+      @include suffix($breakpoint-key) {
         display: none !important;
       }
     }
@@ -23,18 +30,14 @@
 
 
 
-//  Hide
+// hide
 
 @include utility('hide') {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute !important;
-  width: 1px;
+  display: none !important;
 
-  @each $key, $value in $breakpoints {
-    @include desde($key) {
-      @include suffix($key) {
+  @each $breakpoint-key, $breakpoint-value in $responsive-states-trumps-breakpoints {
+    @include desde($breakpoint-value) {
+      @include suffix($breakpoint-key) {
         display: none !important;
       }
     }

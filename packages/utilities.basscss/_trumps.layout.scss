@@ -7,7 +7,7 @@
  */
 
 
-//  Display
+// display
 
 @include utility('inline') { display: inline; }
 @include utility('block') { display: block; }
@@ -19,7 +19,7 @@
 
 
 
-//  Overflow
+// overflow
 
 @include utility('overflow-hidden') { overflow: hidden; }
 @include utility('overflow-scroll') { overflow: scroll; }
@@ -29,6 +29,6 @@
 
 
 
-//  Max Width
+// max Width
 
 @include utility('fit') { max-width: 100%; }

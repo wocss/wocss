@@ -6,9 +6,9 @@
  * doc: http://www.basscss.com/#basscss-typography
  */
 
-@each $fw, $value in $font-weights {
-  @include utility($fw) {
-    font-weight: $value;
+@each $fw-key, $fz-value in $font-weights {
+  @include utility($fw-key) {
+    font-weight: $fz-value;
   }
 }
 

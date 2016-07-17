@@ -7,7 +7,7 @@
  */
 
 
-//  borders
+// borders
 
 @include utility('border') {
   border-style: solid;
@@ -45,7 +45,7 @@
 
 
 
-//  Border Radii
+// border radii
 
 @include utility('rounded') { border-radius: $base-border-radius; }
 @include utility('circle') { border-radius: 50%; }
