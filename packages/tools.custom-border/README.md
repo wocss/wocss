@@ -1,14 +1,28 @@
 # Custom border
 
-The `wocss-tools-custom-border` module contains a mixin that allows you to add borders with customizable `width` and `height`.
+> Tool
+
+The `wocss-tools-custom-border` module contains `mixins` that allows you to add borders with customizable `width` and `height`.
 
 Install using npm:
 
 ```sh
-$ npm install --save wocss-tools-custom-border
+$ npm install wocss-tools-custom-border --save
 ```
 
 ## Usage
+
+With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
+
+```scss
+// dependencies imports
+
+@import '~wocss-tools-bem-constructor';
+```
+
+## Mixins
+
+Then you can use these mixins:
 
 ### custom-border-right($height, $width, $spacing, $color)
 
@@ -36,4 +50,4 @@ li {
 
 ## Dependencies
 
-* [wocss-settings-defaults](https://github.com/wocss/settings.default)
+* [wocss-settings-defaults](https://github.com/wocss/settings.defaults)
