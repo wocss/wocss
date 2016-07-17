@@ -1,0 +1,23 @@
+{
+  "name": "wocss-settings-breakpoints",
+  "version": "1.0.0",
+  "description": "Breakpoints variables",
+  "main": "_settings.breakpoints.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/settings.breakpoints.git"
+  },
+  "keywords": [
+    "bemit",
+    "css",
+    "itcss",
+    "sass",
+    "wocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/settings.breakpoints/issues"
+  },
+  "homepage": "https://github.com/wocss/settings.breakpoints#readme"
+}
