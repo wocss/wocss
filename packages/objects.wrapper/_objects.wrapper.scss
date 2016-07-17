@@ -4,22 +4,22 @@
 
 // variables
 
-$wrapper-width-xl: 1200px !default;
-$wrapper-width-lg: 1000px !default;
-$wrapper-width-md: 780px !default;
+$wrapper-object-width-xl: 1200px !default;
+$wrapper-object-width-lg: 1000px !default;
+$wrapper-object-width-md: 780px !default;
 
 
 
 
 
 @include object('wrapper') {
-  @include layout-center($wrapper-width-xl);
+  @include layout-center($wrapper-object-width-xl);
 
   @include hasta('lg') {
-    max-width: $wrapper-width-md;
+    max-width: $wrapper-object-width-md;
   }
 
   @include desde-hasta('lg', 'xl') {
-    max-width: $wrapper-width-lg;
+    max-width: $wrapper-object-width-lg;
   }
 }
