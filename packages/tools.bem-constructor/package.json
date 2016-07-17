@@ -1,0 +1,23 @@
+{
+  "name": "wocss-tools-bem-constructor",
+  "version": "1.0.0",
+  "description": "wocss' bem-constructor mixins",
+  "main": "_tools.bem-constructor.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wochap/tools.bem-constructor.git"
+  },
+  "keywords": [
+    "bemit",
+    "css",
+    "itcss",
+    "sass",
+    "wocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wochap/tools.bem-constructor/issues"
+  },
+  "homepage": "https://github.com/wochap/tools.bem-constructor#readme"
+}
