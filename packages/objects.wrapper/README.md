@@ -30,5 +30,5 @@ Then use `o-wrapper` class for a responsive fixed width container.
 
 ## Dependencies
 
-* [wocss-settings-defaults](https://github.com/wocss/settings.default)
+* [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
 * [wocss-tools-layout](https://github.com/wocss/tools.layout)
