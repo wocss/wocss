@@ -1,0 +1,23 @@
+{
+  "name": "wocss-base-table",
+  "version": "1.0.0",
+  "description": "wocss table base-level styling",
+  "main": "_base.table.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wochap/base.table.git"
+  },
+  "keywords": [
+    "bemit",
+    "css",
+    "itcss",
+    "sass",
+    "wocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wochap/base.table/issues"
+  },
+  "homepage": "https://github.com/wochap/base.table#readme"
+}

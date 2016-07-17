@@ -1,0 +1,32 @@
+/*------------------------------------*\
+  #Tables
+\*------------------------------------*/
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: $base-border;
+  padding: ($base-spacing-unit / 2) 0;
+}
+
+th {
+  font-weight: $fw-s-bold;
+  text-align: left;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+thead {
+  th {
+    border-bottom-width: 2px;
+  }
+}
