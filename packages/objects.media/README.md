@@ -1,16 +1,26 @@
 # Media
 
-The `wocss-objects-media` module contains the media object.
+> Object
+
+The `wocss-objects-media` module contains the media `object`.
 
 Install using npm:
 
 ```sh
-$ npm install --save wocss-objects-media
+$ npm install wocss-objects-media --save
 ```
 
 ## Usage
 
-Basic usage of the Media object uses the required classes:
+With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
+
+```scss
+// dependencies imports
+
+@import '~wocss-objects-media';
+```
+
+Then you can use the required classes:
 
 ```html
 <div class="o-media">
@@ -18,7 +28,7 @@ Basic usage of the Media object uses the required classes:
     <!-- here media content -->
   </div>
   <div class="o-media__body">
-    <!-- here body -->
+    <!-- here body content -->
   </div>
 </div>
 ```
@@ -39,12 +49,12 @@ For example:
     <!-- here media content -->
   </div>
   <div class="o-media__body">
-    <!-- here body -->
+    <!-- here body content -->
   </div>
 </div>
 ```
 
 ## Dependencies
 
-* [wocss-settings-defaults](https://github.com/wocss/settings.default)
-* [wocss-tools-mixins](https://github.com/wocss/tools.mixins)
+* [wocss-settings-spaces](https://github.com/wocss/settings.spaces)
+* [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
