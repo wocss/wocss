@@ -2,6 +2,24 @@
   #Wrapper
 \*------------------------------------*/
 
+// variables
+
+$wrapper-width-xl: 1200px !default;
+$wrapper-width-lg: 1000px !default;
+$wrapper-width-md: 780px !default;
+
+
+
+
+
 @include object('wrapper') {
-  @include layout-wrapper();
+  @include layout-center($wrapper-width-xl);
+
+  @include hasta('lg') {
+    max-width: $wrapper-width-md;
+  }
+
+  @include desde-hasta('lg', 'xl') {
+    max-width: $wrapper-width-lg;
+  }
 }
