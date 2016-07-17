@@ -1,38 +1,54 @@
 # Utilities
 
-The `wocss-trumps-utilities` module contains a series of helper classes. [Basscss](http://www.basscss.com/) using `wocss` variables.
+> Trumps
+
+The `wocss-trumps-utilities` module contains a series of helper classes. [Basscss](http://www.basscss.com/) modules using `wocss` variables.
 
 Install using npm:
 
 ```sh
-$ npm install --save wocss-trumps-utilities
+$ npm install wocss-trumps-utilities --save
 ```
 
-## Modules
+## Usage
 
-### [Align](http://www.basscss.com/#basscss-align)
+With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
-### [Background colors](https://github.com/basscss/addons/tree/master/modules/background-colors)
+```scss
+// dependencies imports
 
-### [Borders](http://www.basscss.com/#basscss-border)
+@import '~wocss-trumps-utilities';
+```
 
-### [Colors](https://github.com/basscss/addons/blob/master/modules/colors)
+### Modules
 
-### [Layout](http://www.basscss.com/#basscss-layout)
+#### [Align](http://www.basscss.com/#basscss-align)
 
-### [Margin](http://www.basscss.com/#basscss-margin)
+#### [Background colors](https://github.com/basscss/addons/tree/master/modules/background-colors)
 
-### [Padding](http://www.basscss.com/#basscss-padding)
+#### [Borders](http://www.basscss.com/#basscss-border)
 
-### [Positions](http://www.basscss.com/#basscss-position)
+#### [Colors](https://github.com/basscss/addons/blob/master/modules/colors)
 
-### [Responsive states](http://www.basscss.com/v7/docs/responsive-states/)
+#### [Layout](http://www.basscss.com/#basscss-layout)
 
-### [Type scale](http://www.basscss.com/#basscss-type-scale)
+#### [Margin](http://www.basscss.com/#basscss-margin)
 
-### [Typography](http://www.basscss.com/#basscss-typography)
+#### [Padding](http://www.basscss.com/#basscss-padding)
+
+#### [Positions](http://www.basscss.com/#basscss-position)
+
+#### [Responsive states](http://www.basscss.com/v7/docs/responsive-states/)
+
+#### [Type scale](http://www.basscss.com/#basscss-type-scale)
+
+#### [Typography](http://www.basscss.com/#basscss-typography)
 
 ## Dependencies
 
 * [wocss-settings-defaults](https://github.com/wocss/settings.default)
-* [wocss-tools-mixins](https://github.com/wocss/tools.mixins)
+* [wocss-settings-typography](https://github.com/wocss/settings.typography)
+* [wocss-settings-spaces](https://github.com/wocss/settings.spaces)
+* [wocss-settings-colors](https://github.com/wocss/settings.colors)
+* [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
+* [wocss-tools-breakpoints](https://github.com/wocss/tools.breakpoints)
