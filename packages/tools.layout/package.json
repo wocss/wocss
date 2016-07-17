@@ -1,0 +1,23 @@
+{
+  "name": "wocss-tools-layout",
+  "version": "1.0.0",
+  "description": "wocss' layout mixins",
+  "main": "_tools.layout.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wochap/tools.layout.git"
+  },
+  "keywords": [
+    "bemit",
+    "css",
+    "itcss",
+    "sass",
+    "wocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wochap/tools.layout/issues"
+  },
+  "homepage": "https://github.com/wochap/tools.layout#readme"
+}
