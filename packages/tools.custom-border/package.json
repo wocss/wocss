@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wocss/tools.custom-border/issues"
   },
-  "homepage": "https://github.com/wocss/tools.custom-border#readme"
+  "homepage": "https://github.com/wocss/tools.custom-border#readme",
+  "dependencies": {
+    "wocss-settings-defaults": "^1.0.0"
+  }
 }
