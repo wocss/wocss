@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/wocss/trumps.utilities/issues"
   },
-  "homepage": "https://github.com/wocss/trumps.utilities#readme"
+  "homepage": "https://github.com/wocss/trumps.utilities#readme",
+  "dependencies": {
+    "wocss-settings-colors": "^1.0.1",
+    "wocss-settings-defaults": "^1.0.1",
+    "wocss-settings-spaces": "^1.0.1",
+    "wocss-settings-typography": "^1.0.2",
+    "wocss-tools-bem-constructor": "^1.0.1",
+    "wocss-tools-breakpoints": "^1.0.1"
+  }
 }
