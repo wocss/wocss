@@ -935,3 +935,12 @@ $bem-suffix-namespace: '\\@' !default;
 
     $unset-suffix: unset-current-context('suffix');
 }
+
+
+
+
+
+// If we have included this file, set a variable to tell the rest of the
+// framework that we have some bem-constructor tools.
+
+$wocss-tools-bem-constructor: true;
