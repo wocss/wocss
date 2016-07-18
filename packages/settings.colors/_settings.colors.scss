@@ -79,3 +79,12 @@ $lighten-1: rgba(255, 255, 255, 0.0625) !default;
 $lighten-2: rgba(255, 255, 255, 0.125) !default;
 $lighten-3: rgba(255, 255, 255, 0.25) !default;
 $lighten-4: rgba(255, 255, 255, 0.5) !default;
+
+
+
+
+
+// If we have included this file, set a variable to tell the rest of the
+// framework that we have some colors settings.
+
+$wocss-settings-colors: true;
