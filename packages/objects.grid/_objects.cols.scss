@@ -2,26 +2,17 @@
   #Cols
 \*------------------------------------*/
 
-//  variables
+// variables
 
-$cols-number: 12 !default;
+$cols-object-number: 12 !default;
 
-$cols-gutters: (
-  '1': $space-1,
-  '2': $space-2,
-  '3': $space-3,
-  '4': $space-4,
-  '5': $space-5,
-  '6': $space-6
-) !default;
+// $spaces variable list from wocss-settings-spaces
 
-$cols-breakpoints: (
-  'xs': $breakpoint-xs,
-  'sm': $breakpoint-sm,
-  'md': $breakpoint-md,
-  'lg': $breakpoint-lg,
-  'xl': $breakpoint-xl
-) !default;
+$cols-object-gutters: $spaces !default;
+
+// $breakpoints variable list from wocss-settings-breakpoints
+
+$cols-object-breakpoints: $breakpoints !default;
 
 
 
@@ -51,12 +42,12 @@ $cols-breakpoints: (
     align-items: center;
   }
 
-  @each $key, $value in $cols-gutters {
-    @include modifier('gutter-' + $key) {
-      margin: ($value / -2);
+  @each $gutter-key, $gutter-value in $cols-object-gutters {
+    @include modifier('gutter-' + $gutter-key) {
+      margin: ($gutter-value / -2);
 
       @include modifies-element('col') {
-        padding: ($value / 2);
+        padding: ($gutter-value / 2);
       }
     }
   }
@@ -77,18 +68,18 @@ $cols-breakpoints: (
       flex: 1 1 0;
     }
 
-    @for $col-number from 1 through $cols-number {
+    @for $col-number from 1 through $cols-object-number {
       @include modifier($col-number) {
         flex: none;
-        width: ($col-number / $cols-number) * 100%;
+        width: ($col-number / $cols-object-number) * 100%;
       }
     }
 
-    @each $size, $value in $cols-breakpoints {
-      @for $col-number from 1 through $cols-number {
+    @each $breakpoint-key, $breakpoint-value in $cols-object-breakpoints {
+      @for $col-number from 1 through $cols-object-number {
         @include modifier('auto') {
-          @include suffix($size) {
-            @include desde($size) {
+          @include suffix($breakpoint-key) {
+            @include desde($breakpoint-value) {
               flex: 1 1 auto;
               width: auto;
             }
@@ -96,18 +87,18 @@ $cols-breakpoints: (
         }
 
         @include modifier('fit') {
-          @include suffix($size) {
-            @include desde($size) {
+          @include suffix($breakpoint-key) {
+            @include desde($breakpoint-value) {
               flex: 1 1 0;
             }
           }
         }
 
         @include modifier($col-number) {
-          @include suffix($size) {
-            @include desde($size) {
+          @include suffix($breakpoint-key) {
+            @include desde($breakpoint-value) {
               flex: none;
-              width: ($col-number / $cols-number) * 100%;
+              width: ($col-number / $cols-object-number) * 100%;
             }
           }
         }
