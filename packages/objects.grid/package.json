@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/wocss/objects.cols/issues"
   },
-  "homepage": "https://github.com/wocss/objects.cols#readme"
+  "homepage": "https://github.com/wocss/objects.cols#readme",
+  "dependencies": {
+    "wocss-settings-spaces": "^1.0.1",
+    "wocss-tools-bem-constructor": "^1.0.1",
+    "wocss-tools-breakpoints": "^1.0.1"
+  }
 }
