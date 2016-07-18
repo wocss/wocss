@@ -1,6 +1,6 @@
 {
   "name": "wocss-settings-breakpoints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Breakpoints variables",
   "main": "_settings.breakpoints.scss",
   "repository": {
