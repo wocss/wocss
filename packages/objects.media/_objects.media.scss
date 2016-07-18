@@ -2,6 +2,25 @@
   #Media
 \*------------------------------------*/
 
+// Here we set a variable assuming that spaces settings, bem-constructor tools
+// are not set globally. If they have been previously been defined,
+// the following variables will be overriden and will be set to `true`.
+
+$wocss-settings-spaces: false !default;
+$wocss-tools-bem-constructor: false !default;
+
+@if ($wocss-settings-spaces == false) {
+  @warn "Oops! Have you included the wocss-settings-spaces module?"
+};
+
+@if ($wocss-tools-bem-constructor == false) {
+  @warn "Oops! Have you included the wocss-tools-bem-constructor module?"
+};
+
+
+
+
+
 //  Variables
 
 $media-object-gutters: (
