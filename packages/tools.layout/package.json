@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wochap/tools.layout/issues"
   },
-  "homepage": "https://github.com/wochap/tools.layout#readme"
+  "homepage": "https://github.com/wochap/tools.layout#readme",
+  "dependencies": {
+    "wocss-settings-defaults": "^1.0.0"
+  }
 }
