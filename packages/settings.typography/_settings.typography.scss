@@ -55,3 +55,12 @@ $font-weights: (
   'regular' : $fw-regular,
   'light'   : $fw-light
 ) !default;
+
+
+
+
+
+// If we have included this file, set a variable to tell the rest of the
+// framework that we have some typography settings.
+
+$wocss-settings-typography: true;
