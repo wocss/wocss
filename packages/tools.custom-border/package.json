@@ -1,6 +1,6 @@
 {
   "name": "wocss-tools-custom-border",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wocss' custom-border mixin",
   "main": "_tools.custom-border.scss",
   "repository": {
