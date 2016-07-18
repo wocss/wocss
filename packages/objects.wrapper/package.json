@@ -1,6 +1,6 @@
 {
   "name": "wocss-objects-wrapper",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "wocss' wrapper object",
   "main": "_objects.wrapper.scss",
   "repository": {
