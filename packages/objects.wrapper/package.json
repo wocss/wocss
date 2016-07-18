@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/wocss/objects.wrapper/issues"
   },
-  "homepage": "https://github.com/wocss/objects.wrapper#readme"
+  "homepage": "https://github.com/wocss/objects.wrapper#readme",
+  "dependencies": {
+    "wocss-tools-bem-constructor": "^1.0.1",
+    "wocss-tools-layout": "^1.0.1"
+  }
 }
