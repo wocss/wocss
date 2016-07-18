@@ -1,4 +1,4 @@
-# wocss-starter-kit
+# WOCSS Starter Kit
 
 Install using npm:
 
