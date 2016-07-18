@@ -19,3 +19,12 @@ $spaces: (
   '5': $space-5,
   '6': $space-6
 ) !default;
+
+
+
+
+
+// If we have included this file, set a variable to tell the rest of the
+// framework that we have some spaces settings.
+
+$wocss-settings-spaces: true;
