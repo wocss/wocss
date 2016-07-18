@@ -1,6 +1,6 @@
 {
   "name": "wocss-objects-media",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "wocss' media object",
   "main": "_objects.media.scss",
   "repository": {
