@@ -2,6 +2,30 @@
   #Cols
 \*------------------------------------*/
 
+// Here we set a variable assuming that spaces settings, bem-constructor and
+// breakpoints tools are not set globally. If they have been previously been defined,
+// the following variables will be overriden and will be set to `true`.
+
+$wocss-settings-spaces: false !default;
+$wocss-tools-bem-constructor: false !default;
+$wocss-tools-breakpoints: false !default;
+
+@if ($wocss-settings-spaces == false) {
+  @warn "Oops! Have you included the wocss-settings-spaces module?"
+};
+
+@if ($wocss-tools-bem-constructor == false) {
+  @warn "Oops! Have you included the wocss-tools-bem-constructor module?"
+};
+
+@if ($wocss-tools-breakpoints == false) {
+  @warn "Oops! Have you included the wocss-tools-breakpoints module?"
+};
+
+
+
+
+
 // variables
 
 $cols-object-number: 12 !default;
