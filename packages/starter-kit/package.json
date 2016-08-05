@@ -23,8 +23,9 @@
     "inuit-box-sizing": "^0.2.0",
     "inuit-normalize": "^3.0.3",
     "inuit-reset": "^0.1.1",
-    "wocss-base-defaults": "^1.0.0",
+    "wocss-base-defaults": "^2.0.0",
     "wocss-generic-shared": "^1.0.0",
+    "wocss-settings-colors": "^1.0.1",
     "wocss-settings-defaults": "^1.0.1",
     "wocss-settings-typography": "^1.0.2"
   }

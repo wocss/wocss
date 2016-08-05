@@ -15,6 +15,7 @@ With a tool like [webpack](https://webpack.github.io/) you can write:
 ```scss
 @import '~wocss-settings-defaults';
 @import '~wocss-settings-typography';
+@import '~wocss-settings-colors';
 
 @import '~inuit-normalize';
 @import '~inuit-reset';
