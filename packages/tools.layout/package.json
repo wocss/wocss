@@ -5,7 +5,7 @@
   "main": "_tools.layout.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wochap/tools.layout.git"
+    "url": "git+https://github.com/wocss/tools.layout.git"
   },
   "keywords": [
     "bemit",
@@ -17,9 +17,9 @@
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wochap/tools.layout/issues"
+    "url": "https://github.com/wocss/tools.layout/issues"
   },
-  "homepage": "https://github.com/wochap/tools.layout#readme",
+  "homepage": "https://github.com/wocss/tools.layout#readme",
   "dependencies": {
     "wocss-settings-defaults": "^1.0.0"
   }
