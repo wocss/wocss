@@ -5,7 +5,7 @@
   "main": "_tools.bem-constructor.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wochap/tools.bem-constructor.git"
+    "url": "git+https://github.com/wocss/tools.bem-constructor.git"
   },
   "keywords": [
     "bemit",
@@ -17,7 +17,7 @@
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wochap/tools.bem-constructor/issues"
+    "url": "https://github.com/wocss/tools.bem-constructor/issues"
   },
-  "homepage": "https://github.com/wochap/tools.bem-constructor#readme"
+  "homepage": "https://github.com/wocss/tools.bem-constructor#readme"
 }
