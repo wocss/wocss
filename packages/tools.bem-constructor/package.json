@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wocss/tools.bem-constructor/issues"
   },
-  "homepage": "https://github.com/wocss/tools.bem-constructor#readme"
+  "homepage": "https://github.com/wocss/tools.bem-constructor#readme",
+  "dependencies": {
+    "sass-bem-constructor": "^1.1.0"
+  }
 }
