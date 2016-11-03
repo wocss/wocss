@@ -1,5 +1,5 @@
 /*------------------------------------*\
-  #Bem constructor
+  #BEM-CONSTRUCTOR
 \*------------------------------------*/
 
 @import "~sass-bem-constructor/dist/sass-bem-constructor";
@@ -8,7 +8,6 @@
 
 
 
-// If we have included this file, set a variable to tell the rest of the
-// framework that we have some bem-constructor tools.
+// tell the rest of framework that we have this module
 
 $wocss-tools-bem-constructor: true;
