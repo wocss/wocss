@@ -1,66 +1,60 @@
 /*------------------------------------*\
-  #Typography
+  #TYPOGRAPHY
 \*------------------------------------*/
 
 // font sizes
 
-$fz-xl: 1.5em !default;
-$fz-lg: 1.25em !default;
-$fz-md: 1.1em !default;
-$fz-sm: 0.9em !default;
-$fz-xs: 0.75em !default;
+$global-fz-xl: 1.5em !default;
+$global-fz-lg: 1.25em !default;
+$global-fz-md: 1.1em !default;
+$global-fz-sm: 0.9em !default;
+$global-fz-xs: 0.75em !default;
+$global-fz-h00: 3rem !default;
+$global-fz-h0 : 2.4rem !default;
+$global-fz-h1 : 2rem !default;
+$global-fz-h2 : 1.5rem !default;
+$global-fz-h3 : 1.25rem !default;
+$global-fz-h4 : 1rem !default;
+$global-fz-h5 : $global-fz-h4 !default;
+$global-fz-h6 : $global-fz-h4 !default;
 
-$fz-h00: 3rem !default;
-$fz-h0 : 2.4rem !default;
-$fz-h1 : 2rem !default;
-$fz-h2 : 1.5rem !default;
-$fz-h3 : 1.25rem !default;
-$fz-h4 : 1rem !default;
-$fz-h5 : $fz-h4 !default;
-$fz-h6 : $fz-h4 !default;
-
-$font-sizes: (
-  'xl': $fz-xl,
-  'lg': $fz-lg,
-  'md': $fz-md,
-  'sm': $fz-sm,
-  'xs': $fz-xs,
-
-  'h00': $fz-h00,
-  'h0' : $fz-h0,
-  'h1' : $fz-h1,
-  'h2' : $fz-h2,
-  'h3' : $fz-h3,
-  'h4' : $fz-h4,
-  'h5' : $fz-h5,
-  'h6' : $fz-h6
+$wocss-font-sizes: (
+  'xl': $global-fz-xl,
+  'lg': $global-fz-lg,
+  'md': $global-fz-md,
+  'sm': $global-fz-sm,
+  'xs': $global-fz-xs,
+  'h00': $global-fz-h00,
+  'h0' : $global-fz-h0,
+  'h1' : $global-fz-h1,
+  'h2' : $global-fz-h2,
+  'h3' : $global-fz-h3,
+  'h4' : $global-fz-h4,
+  'h5' : $global-fz-h5,
+  'h6' : $global-fz-h6
 ) !default;
-
-
-
 
 
 // font Weights
 
-$fw-x-bold : 800 !default;
-$fw-bold   : 700 !default;
-$fw-s-bold : 600 !default;
-$fw-regular: 400 !default;
-$fw-light  : 300 !default;
+$global-fw-x-bold : 800 !default;
+$global-fw-bold   : 700 !default;
+$global-fw-s-bold : 600 !default;
+$global-fw-regular: 400 !default;
+$global-fw-light  : 300 !default;
 
-$font-weights: (
-  'x-bold'  : $fw-x-bold,
-  'bold'    : $fw-bold,
-  's-bold'  : $fw-s-bold,
-  'regular' : $fw-regular,
-  'light'   : $fw-light
+$wocss-font-weights: (
+  'x-bold'  : $global-fw-x-bold,
+  'bold'    : $global-fw-bold,
+  's-bold'  : $global-fw-s-bold,
+  'regular' : $global-fw-regular,
+  'light'   : $global-fw-light
 ) !default;
 
 
 
 
 
-// If we have included this file, set a variable to tell the rest of the
-// framework that we have some typography settings.
+// tell the rest of framework that we have this module
 
 $wocss-settings-typography: true;
