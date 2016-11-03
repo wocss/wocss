@@ -1,6 +1,6 @@
 {
   "name": "wocss-settings-breakpoints",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Media queries breakpoints variables",
   "main": "_settings.breakpoints.scss",
   "repository": {
