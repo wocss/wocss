@@ -1,8 +1,8 @@
-# Breakpoints
+# BREAKPOINTS
 
 > Setting
 
-The `wocss-settings-breakpoints` module contains breakpoints `variables` for the framework. Feel free to use these variables throughout your project, but be **careful** with modify or reassign them.
+The `wocss-settings-breakpoints` module contains breakpoints `variables` for the framework's modules and [sass-mq](https://github.com/sass-mq/sass-mq). Feel free to reassign these variables.
 
 Install using npm:
 
@@ -12,19 +12,18 @@ $ npm install wocss-settings-breakpoints --save
 
 ## Usage
 
-With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
+With a tool like [webpack](https://webpack.github.io/) you should import this module writing:
 
 ```scss
 @import '~wocss-settings-breakpoints';
 ```
 
-### Variables list
+### Variables
 
-| Variable name | Default value |
+#### `$wocss-breakpoints`
+
+| Key | Value |
 |---------------|-------|
-| $breakpoint-xs | `320px` |
-| $breakpoint-sm | `480px` |
-| $breakpoint-md | `768px` |
-| $breakpoint-lg | `992px` |
-| $breakpoint-xl | `1200px` |
-| $breakpoints  | `()` |
+| `'mobile'` | `320px` |
+| `'tablet'` | `768px` |
+| `'laptop'` | `1024px` |

@@ -1,26 +1,20 @@
 /*------------------------------------*\
-  #Breakpoints
+  #BREAKPOINTS
 \*------------------------------------*/
 
-$breakpoint-xs: 320px !default;  // 20em
-$breakpoint-sm: 480px !default;  // 30em
-$breakpoint-md: 768px !default;  // 48em
-$breakpoint-lg: 992px !default;  // 62em
-$breakpoint-xl: 1200px !default; // 75em
-
-$breakpoints: (
-  'xs': $breakpoint-xs,
-  'sm': $breakpoint-sm,
-  'md': $breakpoint-md,
-  'lg': $breakpoint-lg,
-  'xl': $breakpoint-xl
+$wocss-breakpoints: (
+  'mobile': 320px, // 20em
+  'tablet': 768px, // 48em
+  'laptop': 1024px // 64em
 ) !default;
 
 
+$mq-breakpoints: $wocss-breakpoints;
 
 
 
-// If we have included this file, set a variable to tell the rest of the
-// framework that we have some responsive settings.
+
+
+// tell the rest of framework that we have this module
 
 $wocss-settings-breakpoints: true;
