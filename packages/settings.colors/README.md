@@ -1,4 +1,4 @@
-# Colors
+# COLORS
 
 > Setting
 

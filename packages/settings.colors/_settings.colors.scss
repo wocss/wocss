@@ -1,14 +1,11 @@
 /*------------------------------------*\
-  #Colors
+  #COLORS
 \*------------------------------------*/
 
 // basic colors
 
 $black: #000000 !default;
 $white: #ffffff !default;
-
-
-
 
 
 // social colors
@@ -19,9 +16,6 @@ $google  : #dc4e41 !default;
 $youtube : #e52d27 !default;
 
 
-
-
-
 // components colors
 
 $text   : #5d5d5d !default;
@@ -30,9 +24,6 @@ $error  : #cb5234 !default;
 $warning: #edb431 !default;
 $info   : #3aa3e3 !default;
 $success: #2ab27b !default;
-
-
-
 
 
 // rainbow colors
@@ -52,9 +43,6 @@ $red    : #ff4136 !default;
 $maroon : #85144b !default;
 $fuchsia: #f012be !default;
 $purple : #b10dc9 !default;
-
-
-
 
 
 // RGBA colors
@@ -84,7 +72,6 @@ $lighten-4: rgba(255, 255, 255, 0.5) !default;
 
 
 
-// If we have included this file, set a variable to tell the rest of the
-// framework that we have some colors settings.
+// tell the rest of framework that we have this module
 
 $wocss-settings-colors: true;
