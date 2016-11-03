@@ -2,7 +2,7 @@
 
 > Setting
 
-The `wocss-settings-breakpoints` module contains breakpoints `variables` for the framework's modules and [sass-mq](https://github.com/sass-mq/sass-mq). Feel free to reassign these variables.
+The `wocss-settings-breakpoints` module contains media queries breakpoints `variables` for the framework's modules and [sass-mq](https://github.com/sass-mq/sass-mq). Feel free to reassign these variables.
 
 Install using npm:
 
