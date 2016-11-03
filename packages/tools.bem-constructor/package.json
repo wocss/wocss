@@ -1,7 +1,7 @@
 {
   "name": "wocss-tools-bem-constructor",
   "version": "1.0.3",
-  "description": "wocss' bem-constructor mixins",
+  "description": "bem-constructor wrapper",
   "main": "_tools.bem-constructor.scss",
   "repository": {
     "type": "git",

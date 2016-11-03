@@ -1,10 +1,8 @@
-# Bem constructor
+# BEM-CONSTRUCTOR
 
 > Tool
 
-The `wocss-tools-bem-constructor` module contains `mixins` to help tame those bem structures.
-
-This is a wrapper for [WOCSS](https://github.com/wocss).
+The `wocss-tools-bem-constructor` module contains [bem-constructor](https://github.com/danielguillan/bem-constructor). This is a wrapper for the framework.
 
 Install using npm:
 
@@ -17,9 +15,7 @@ $ npm install wocss-tools-bem-constructor --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-// dependencies imports
-
 @import '~wocss-tools-bem-constructor';
 ```
 
-### [Mixin docs](https://github.com/danielguillan/bem-constructor#blockname-type)
+### [Mixin doc](https://github.com/danielguillan/bem-constructor#blockname-type)
