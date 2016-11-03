@@ -1,8 +1,8 @@
-# Spaces
+# SPACES
 
 > Setting
 
-The `wocss-settings-spaces` module contains gutter `variables` for the framework. Feel free to use these variables throughout your project, but be **careful** with modify or reassign them.
+The `wocss-settings-spaces` module contains gutter `variables` for the framework. Feel free to reassign these variables.
 
 Install using npm:
 
@@ -22,10 +22,10 @@ With a tool like [webpack](https://webpack.github.io/) you can import this modul
 
 | Variable name | Default value |
 |---------------|-------|
-| $space-1 | `0.25rem` |
-| $space-2 | `0.5rem` |
-| $space-3 | `1rem` |
-| $space-4 | `2rem` |
-| $space-5 | `4rem` |
-| $space-6 | `8rem` |
-| $spaces  | `()` |
+| `$global-space-1` | `0.25rem` |
+| `$global-space-2` | `0.5rem` |
+| `$global-space-3` | `1rem` |
+| `$global-space-4` | `2rem` |
+| `$global-space-5` | `4rem` |
+| `$global-space-6` | `8rem` |
+| `$wocss-spaces`  | `(...)` |
