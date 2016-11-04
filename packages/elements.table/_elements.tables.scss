@@ -1,0 +1,13 @@
+/*------------------------------------*\
+  #TABLES
+\*------------------------------------*/
+
+/**
+ * 1. Ensure tables does not exceed its width. src: https://css-tricks.com/fixing-tables-long-strings/
+ * 2. Ensure tables fill up as much space as possible.
+ */
+
+table {
+  table-layout: fixed; /* [1] */
+  width: 100%; /* [2] */
+}

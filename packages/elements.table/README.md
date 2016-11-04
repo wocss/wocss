@@ -1,13 +1,13 @@
-# Table
+# TABLE
 
-> Base
+> Element
 
-The `wocss-base-table` module contains table `base-level` styling.
+The `wocss-elements-table` module contains table `base-level` styling.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-base-table --save
+$ npm install wocss-elements-table --save
 ```
 
 ## Usage
@@ -15,12 +15,5 @@ $ npm install wocss-base-table --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-// dependencies imports
-
-@import '~wocss-base-table';
+@import '~wocss-elements-table';
 ```
-
-## Dependencies
-
-* [wocss-settings-defaults](https://github.com/wocss/settings.defaults)
-* [wocss-settings-typography](https://github.com/wocss/settings.typography)
