@@ -1,8 +1,8 @@
-# Resets
+# RESETS
 
 > Tool
 
-The `wocss-tools-resets` module contains `mixins` that allows reset all the things.
+The `wocss-tools-resets` module contains `mixins` that allows reset styles.
 
 Install using npm:
 
@@ -15,25 +15,12 @@ $ npm install wocss-tools-resets --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-// dependencies imports
-
 @import '~wocss-tools-resets';
 ```
 
 ### Mixins
 
 Then you can use these mixins:
-
-#### reset-input()
-
-Removes any styles that were previously set on a input.
-
-```scss
-.form-control {
-  @include reset-input();
-  // more code
-}
-```
 
 #### reset-list()
 
@@ -42,17 +29,16 @@ Removes any styles that were previously set on a list, clearing out all the marg
 ```scss
 .items {
   @include reset-list();
-  // more code
 }
 ```
 
-#### reset-link()
+Result:
 
-Removes any styles that were previously set on links, even that annoying text-decoration.
-
-```scss
-.article {
-  @include reset-link();
-  // more code
+```css
+.items {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
 }
 ```

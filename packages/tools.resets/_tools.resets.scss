@@ -1,22 +1,6 @@
 /*------------------------------------*\
-  #Resets
+  #RESETS
 \*------------------------------------*/
-
-/**
- * 1. Form items don't inherit font information
- * 2. Removes input background color for chrome autocomplete
- */
-
-@mixin reset-input () {
-  appearance: none;
-  background: transparent;
-  font-size: inherit; /* [1] */
-
-  &:-webkit-autofill {
-    box-shadow: 0 0 0 1000px transparent inset; /* [2] */
-  }
-}
-
 
 @mixin reset-list () {
   list-style: none;
@@ -26,28 +10,9 @@
 }
 
 
-/**
- * 1. Removes custom link styles
- * 2. Ensure that the color is inherit
- */
-
-@mixin reset-link () {
-  border: none; /* [1] */
-  text-decoration: none;
-
-  &, /* [2] */
-  &:active, /* [2] */
-  &:focus, /* [2] */
-  &:hover { /* [2] */
-    color: inherit;
-  }
-}
 
 
 
-
-
-// If we have included this file, set a variable to tell the rest of the
-// framework that we have some resets mixins.
+// tell the rest of framework that we have this module
 
 $wocss-tools-resets: true;
