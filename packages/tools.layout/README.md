@@ -1,4 +1,4 @@
-# Layout
+# LAYOUT
 
 > Tool
 
@@ -15,8 +15,6 @@ $ npm install wocss-tools-layout --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-// dependencies imports
-
 @import '~wocss-tools-layout';
 ```
 
@@ -24,13 +22,25 @@ With a tool like [webpack](https://webpack.github.io/) you can import this modul
 
 Then you can use these mixins:
 
-#### layout-center($max-width, $padding-x)
+#### layout-center($max-width: 1200px, $padding-x: $global-spacing-unit)
 
 Center the element.
 
 ```scss
 .container {
-  @include layout-center(1000px, 0);
+  @include layout-center(1000px, false);
+}
+```
+
+Result:
+
+```css
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  width: 100%;
 }
 ```
 
@@ -44,6 +54,15 @@ It makes an element a block.
 }
 ```
 
+Result:
+
+```css
+.container {
+  display: block;
+  width: 100%;
+}
+```
+
 ## Dependencies
 
-* [wocss-settings-defaults](https://github.com/wocss/settings.defaults)
+* [wocss-settings-global](https://github.com/wocss/settings.global)

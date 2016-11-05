@@ -1,33 +1,33 @@
-/*------------------------------------*\
-  #Layout
-\*------------------------------------*/
+// check dependencies
 
-// Here we set a variable assuming that defaults settings are not set
-// globally. If they have been previously been defined, the following variable
-// will be overriden and will be set to `true`.
+$wocss-settings-global: false !default;
 
-$wocss-settings-defaults: false !default;
 
-@if ($wocss-settings-defaults == false) {
-    @warn "Oops! Have you included the wocss-settings-defaults module?"
+@if ($wocss-settings-global == false) {
+  @error "[wocss-tools-layout] Have you included the wocss-settings-global module?"
 };
 
 
 
 
 
+/*------------------------------------*\
+  #LAYOUT
+\*------------------------------------*/
+
+
 // center a block element
 
-@mixin layout-center ($center-max-width: 1200px, $center-padding-x: $base-spacing-unit) {
+@mixin layout-center ($max-width: 1200px, $padding-x: $global-spacing-unit) {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: $center-max-width;
+  max-width: $max-width;
   width: 100%;
 
-  @if $center-padding-x != false {
-    padding-left: $center-padding-x;
-    padding-right: $center-padding-x;
+  @if $padding-x != false {
+    padding-left: $padding-x;
+    padding-right: $padding-x;
   }
 }
 
@@ -43,7 +43,6 @@ $wocss-settings-defaults: false !default;
 
 
 
-// If we have included this file, set a variable to tell the rest of the
-// framework that we have some layout mixins.
+// tell the rest of framework that we have this module
 
 $wocss-tools-layout: true;
