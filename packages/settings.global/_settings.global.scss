@@ -1,0 +1,55 @@
+/*------------------------------------*\
+  #COLORS
+\*------------------------------------*/
+
+// brand colors
+
+$global-color-primary: #FF151F !default;
+$global-color-secondary: #D4007C !default;
+$global-color-tertiary: #3A14BE !default;
+
+
+// social colors
+
+$global-color-facebook: #3b5999 !default;
+$global-color-twitter: #55acee !default;
+$global-color-google: #dc4e41 !default;
+$global-color-youtube: #e52d27 !default;
+
+
+// component colors
+
+$global-color-error: #cb5234 !default;
+$global-color-warning: #edb431 !default;
+$global-color-info: #3aa3e3 !default;
+$global-color-success: #2ab27b !default;
+
+
+
+
+
+/*------------------------------------*\
+  #SPACES
+\*------------------------------------*/
+
+$global-spacing-unit: 1.5rem !default;
+
+
+
+
+
+/*------------------------------------*\
+  #BORDER
+\*------------------------------------*/
+
+$global-border-radius: 3px !default;
+$global-border-width: 1px !default;
+$global-border-color: $global-color-primary !default;
+
+
+
+
+
+// tell the rest of framework that we have this module
+
+$wocss-settings-global: true;

@@ -1,0 +1,22 @@
+{
+  "name": "wocss-settings-global",
+  "version": "1.0.0",
+  "description": "Global variables",
+  "main": "_settings.global.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/settings.global.git"
+  },
+  "keywords": [
+    "bemit",
+    "itcss",
+    "scss",
+    "wocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/settings.global/issues"
+  },
+  "homepage": "https://github.com/wocss/settings.global#readme"
+}
