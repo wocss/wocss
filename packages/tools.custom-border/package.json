@@ -1,7 +1,7 @@
 {
   "name": "wocss-tools-custom-border",
   "version": "1.0.1",
-  "description": "wocss' custom-border mixin",
+  "description": "Mixins that allow create borders with customizable width and height.",
   "main": "_tools.custom-border.scss",
   "repository": {
     "type": "git",
@@ -9,9 +9,8 @@
   },
   "keywords": [
     "bemit",
-    "css",
+    "scss",
     "itcss",
-    "sass",
     "wocss"
   ],
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
@@ -21,6 +20,6 @@
   },
   "homepage": "https://github.com/wocss/tools.custom-border#readme",
   "dependencies": {
-    "wocss-settings-defaults": "^1.0.0"
+    "wocss-settings-global": "^1.0.0"
   }
 }

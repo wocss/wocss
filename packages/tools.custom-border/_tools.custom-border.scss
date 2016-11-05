@@ -1,55 +1,54 @@
-/*------------------------------------*\
-  #Custom border
-\*------------------------------------*/
+// check dependencies
 
-// Here we set a variable assuming that defaults settings are not set
-// globally. If they have been previously been defined, the following variable
-// will be overriden and will be set to `true`.
+$wocss-settings-global: false !default;
 
-$wocss-settings-defaults: false !default;
 
-@if ($wocss-settings-defaults == false) {
-    @warn "Oops! Have you included the wocss-settings-defaults module?"
+@if ($wocss-settings-global == false) {
+  @error "[wocss-tools-custom-border] Have you included the wocss-settings-global module?"
 };
 
 
 
 
 
-@mixin custom-border-right ($border-height: 1.1em, $border-width: 1px, $border-spacing: $base-spacing-unit, $border-color: currentColor) {
-  margin-right: $border-spacing;
-  padding-right: $border-spacing;
+/*------------------------------------*\
+  #CUSTOM-BORDER
+\*------------------------------------*/
+
+@mixin custom-border-right ($height: 1.1em, $width: 1px, $spacing: $global-spacing-unit, $color: currentColor) {
+  margin-right: $spacing;
+  padding-right: $spacing;
   position: relative;
 
   &::after {
-    background-color: $border-color;
+    background-color: $color;
     content: '';
     display: block;
-    height: $border-height;
+    height: $height;
     left: 100%;
     position: absolute;
     top: 50%;
-    transform: translate3d(0, -50%, 0);
-    width: $border-width;
+    transform: translateX(-50%);
+    width: $width;
   }
 }
 
 
-@mixin custom-border-bottom ($border-height: 1px, $border-width: 90%, $border-spacing: $base-spacing-unit, $border-color: currentColor) {
-  margin-bottom: $border-spacing;
-  padding-bottom: $border-spacing;
+@mixin custom-border-bottom ($height: 1px, $width: 90%, $spacing: $global-spacing-unit, $color: currentColor) {
+  margin-bottom: $spacing;
+  padding-bottom: $spacing;
   position: relative;
 
   &::after {
-    background-color: $border-color;
+    background-color: $color;
     content: '';
     display: block;
-    height: $border-height;
+    height: $height;
     left: 50%;
     position: absolute;
     top: 100%;
-    transform: translate3d(-50%, 0, 0);
-    width: $border-width;
+    transform: translateY(-50%);
+    width: $width;
   }
 }
 
@@ -57,7 +56,6 @@ $wocss-settings-defaults: false !default;
 
 
 
-// If we have included this file, set a variable to tell the rest of the
-// framework that we have some custom-border mixins.
+// tell the rest of framework that we have this module
 
 $wocss-tools-custom-border: true;
