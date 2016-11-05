@@ -1,4 +1,4 @@
-# Media
+# MEDIA
 
 > Object
 
@@ -15,8 +15,6 @@ $ npm install wocss-objects-media --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-// dependencies imports
-
 @import '~wocss-objects-media';
 ```
 

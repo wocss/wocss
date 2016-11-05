@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/wocss/objects.media#readme",
   "dependencies": {
-    "wocss-settings-spaces": "^1.0.1",
+    "wocss-settings-spaces": "^2.0.0",
     "wocss-tools-bem-constructor": "^1.0.1"
   }
 }

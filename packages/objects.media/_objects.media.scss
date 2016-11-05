@@ -1,55 +1,44 @@
-/*------------------------------------*\
-  #Media
-\*------------------------------------*/
-
-// Here we set a variable assuming that spaces settings, bem-constructor tools
-// are not set globally. If they have been previously been defined,
-// the following variables will be overriden and will be set to `true`.
+// check dependencies
 
 $wocss-settings-spaces: false !default;
 $wocss-tools-bem-constructor: false !default;
 
+
 @if ($wocss-settings-spaces == false) {
-  @warn "Oops! Have you included the wocss-settings-spaces module?"
+  @error "[wocss-objects-media] Have you included the wocss-settings-spaces module?"
 };
 
 @if ($wocss-tools-bem-constructor == false) {
-  @warn "Oops! Have you included the wocss-tools-bem-constructor module?"
+  @error "[wocss-objects-media] Have you included the wocss-tools-bem-constructor module?"
 };
 
 
 
 
 
-//  Variables
-
-$media-object-gutters: (
-  '1': $space-1,
-  '2': $space-2,
-  '3': $space-3,
-  '4': $space-4
-) !default;
-
-
-
-
+/*------------------------------------*\
+  #MEDIA
+\*------------------------------------*/
 
 @include object('media') {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
 
-  @each $gutter-number, $gutter-value in $media-object-gutters {
+  @each $gutter-number, $gutter-value in $wocss-spaces {
+
     @include modifier('gutter-' + $gutter-number) {
       padding: $gutter-value;
 
       @include modifies-element('body') {
-        margin: 0 0 0 $gutter-value;
+        margin-left: $gutter-value;
       }
 
       @include state('reverse') {
+
         @include modifies-element('body') {
-          margin: 0 $gutter-value 0 0;
+          margin-left: 0;
+          margin-right: $gutter-value;
         }
       }
     }
