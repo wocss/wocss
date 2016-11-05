@@ -1,4 +1,13 @@
-# WOCSS Starter Kit
+# Starter Kit
+
+The `wocss-starter-kit` simply ties together a few key dependencies that are usually the starting point for any new project.
+
+* [Global variables](https://github.com/wocss/settings.global)
+* [Colors variables](https://github.com/wocss/settings.colors)
+* [Typography variables](https://github.com/wocss/settings.typography)
+* [Media queries mixins](https://github.com/sass-mq/sass-mq)
+* [Bem constructor mixins](https://github.com/danielguillan/bem-constructor)
+* [Sanitize.css](https://github.com/jonathantneal/sanitize.css)
 
 Install using npm:
 
@@ -6,32 +15,21 @@ Install using npm:
 $ npm install wocss-starter-kit --save
 ```
 
-The `wocss-starter-kit` simply ties together a few key dependencies that are usually the starting point for any new project.
+## Usage
 
-The `wocss-starter-kit` specifically contains some wocss default variables and mixins, as well as [Nicolas Gallagher](https://twitter.com/necolas)’s [Normalize.css](https://github.com/necolas/normalize.css) and global box-sizing rules.
-
-With a tool like [webpack](https://webpack.github.io/) you can write:
+With a tool like [webpack](https://webpack.github.io/) you can import all modules writing:
 
 ```scss
-@import '~wocss-settings-defaults';
-@import '~wocss-settings-typography';
-@import '~wocss-settings-colors';
+// SETTINGS
+@import "~wocss-settings-global";
+@import "~wocss-settings-colors";
+@import "~wocss-settings-breakpoints";
+@import "~wocss-settings-typography";
 
-@import '~inuit-normalize';
-@import '~inuit-reset';
-@import '~inuit-box-sizing';
-@import '~wocss-generic-shared';
+// TOOLS
+@import '~wocss-tools-bem-constructor';
+@import '~wocss-tools-mq';
 
-@import '~wocss-base-defaults';
+// GENERIC
+@import '~wocss-generic-sanitize';
 ```
-
-All modules have a `dependencies` section in their `README.md` file y las dependencias se instalaran junto al modulo, you don't need importing all the framework's modules.
-
-## WOCSS (WTF)
-
-This starts from a personal need, connect my variables with libs that i use, reuse mixins, easy way to starts new projects, these are my goals:
-
-* use [bemit](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) naming convention.
-* use [ITCSS](http://csswizardry.net/talks/2014/11/itcss-dafed.pdf) architecture.
-* use [namespacing](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) classes.
-* Share variables / mixins between libs like [basscss](basscss.com) and objects, components, etc.
