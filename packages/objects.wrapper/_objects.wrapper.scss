@@ -1,44 +1,41 @@
-/*------------------------------------*\
-  #Wrapper
-\*------------------------------------*/
-
-// Here we set a variable assuming that bem-constructor and resets tools
-// are not set globally. If they have been previously been defined,
-// the following variables will be overriden and will be set to `true`.
+// check dependencies
 
 $wocss-tools-bem-constructor: false !default;
 $wocss-tools-layout: false !default;
 
+
 @if ($wocss-tools-bem-constructor == false) {
-  @warn "Oops! Have you included the wocss-tools-bem-constructor module?"
+  @error "[wocss-objects-wrapper] Have you included the wocss-tools-bem-constructor module?"
 };
 
 @if ($wocss-tools-layout == false) {
-  @warn "Oops! Have you included the wocss-tools-layout module?"
+  @error "[wocss-objects-wrapper] Have you included the wocss-tools-layout module?"
 };
 
 
 
 
 
-// variables
-
-$wrapper-object-width-xl: 1200px !default;
-$wrapper-object-width-lg: 1000px !default;
-$wrapper-object-width-md: 780px !default;
-
-
-
-
+/*------------------------------------*\
+  #WRAPPER
+\*------------------------------------*/
 
 @include object('wrapper') {
-  @include layout-center($wrapper-object-width-xl);
+  @include layout-center();
 
-  @include hasta('lg') {
-    max-width: $wrapper-object-width-md;
+  @include modifier('1') {
+    max-width: 24rem; // 384px
   }
 
-  @include desde-hasta('lg', 'xl') {
-    max-width: $wrapper-object-width-lg;
+  @include modifier('2') {
+    max-width: 32rem; // 512px
+  }
+
+  @include modifier('3') {
+    max-width: 48rem; // 768px
+  }
+
+  @include modifier('4') {
+    max-width: 64rem; // 1024px
   }
 }

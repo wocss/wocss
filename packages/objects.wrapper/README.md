@@ -1,8 +1,8 @@
-# Wrapper
+# WRAPPER
 
 > Object
 
-The `wocss-objects-wrapper` module contains the wrapper `object`, its like `container` [bootstrap class](http://getbootstrap.com/css/#overview-container).
+The `wocss-objects-wrapper` module contains the wrapper `object`.
 
 Install using npm:
 
@@ -15,8 +15,6 @@ $ npm install wocss-objects-wrapper --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-// dependencies imports
-
 @import '~wocss-objects-wrapper';
 ```
 
@@ -27,6 +25,10 @@ Then you can use the `o-wrapper` class for a responsive fixed width container:
   <!-- here your content -->
 </div>
 ```
+
+### Modifiers
+
+* `.o-wrapper--[1|2|3|4]` alter the max-width.
 
 ## Dependencies
 
