@@ -1,0 +1,35 @@
+// check dependencies
+
+$wocss-settings-breakpoints: false !default;
+$wocss-tools-mq: false !default;
+
+
+@if ($wocss-settings-breakpoints == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-breakpoints module?"
+};
+
+@if ($wocss-tools-mq == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-tools-mq module?"
+};
+
+
+
+
+
+/*------------------------------------*\
+  #SHOW
+\*------------------------------------*/
+
+/**
+ * Use these utilities to conditionally show elements based on viewport width.
+ */
+
+@include utility('show') {
+  @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
+    @include suffix($breakpoint-key) {
+      @include mq($until: $breakpoint-value) {
+        display: none !important;
+      }
+    }
+  }
+}

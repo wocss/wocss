@@ -1,26 +1,42 @@
+// check dependencies
+
+$wocss-settings-colors: false !default;
+$wocss-settings-global: false !default;
+
+
+@if ($wocss-settings-colors == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-colors module?"
+};
+
+@if ($wocss-settings-global == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-global module?"
+};
+
+
+
+
+
 /*------------------------------------*\
-  #Backgrounds
+  #BACKGROUND-COLORS
 \*------------------------------------*/
 
 /**
  * doc: https://github.com/basscss/addons/tree/master/modules/background-colors
  */
 
-@include utility('bg-primary') { background-color: $color-primary; }
-@include utility('bg-secondary') { background-color: $color-secondary; }
-@include utility('bg-tertiary') { background-color: $color-tertiary; }
+@include utility('bg-primary') { background-color: $global-color-primary; }
+@include utility('bg-secondary') { background-color: $global-color-secondary; }
+@include utility('bg-tertiary') { background-color: $global-color-tertiary; }
 
-@include utility('bg-facebook') { background-color: $facebook; }
-@include utility('bg-twitter') { background-color: $twitter; }
-@include utility('bg-google') { background-color: $google; }
-@include utility('bg-youtube') { background-color: $youtube; }
+@include utility('bg-facebook') { background-color: $global-color-facebook; }
+@include utility('bg-twitter') { background-color: $global-color-twitter; }
+@include utility('bg-google') { background-color: $global-color-google; }
+@include utility('bg-youtube') { background-color: $global-color-youtube; }
 
-@include utility('bg-text') { background-color: $text; }
-@include utility('bg-default') { background-color: $default; }
-@include utility('bg-error') { background-color: $error; }
-@include utility('bg-warning') { background-color: $warning; }
-@include utility('bg-info') { background-color: $info; }
-@include utility('bg-success') { background-color: $success; }
+@include utility('bg-error') { background-color: $global-color-error; }
+@include utility('bg-warning') { background-color: $global-color-warning; }
+@include utility('bg-info') { background-color: $global-color-info; }
+@include utility('bg-success') { background-color: $global-color-success; }
 
 @include utility('bg-black') { background-color: $black; }
 @include utility('bg-gray') { background-color: $gray; }

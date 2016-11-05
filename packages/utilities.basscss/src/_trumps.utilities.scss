@@ -1,56 +1,16 @@
 /*------------------------------------*\
-  #Utilities
+  #UTILITIES
 \*------------------------------------*/
-
-// Here we set variables assuming that them are not set
-// globally. If they have been previously been defined, the following variables
-// will be overriden and will be set to `true`.
-
-$wocss-settings-defaults: false !default;
-$wocss-settings-typography: false !default;
-$wocss-settings-spaces: false !default;
-$wocss-settings-colors: false !default;
-$wocss-tools-bem-constructor: false !default;
-$wocss-tools-breakpoints: false !default;
-
-@if ($wocss-settings-defaults == false) {
-  @warn "Oops! Have you included the wocss-settings-defaults module?"
-};
-
-@if ($wocss-settings-typography == false) {
-  @warn "Oops! Have you included the wocss-settings-typography module?"
-};
-
-@if ($wocss-settings-spaces == false) {
-  @warn "Oops! Have you included the wocss-settings-spaces module?"
-};
-
-@if ($wocss-settings-colors == false) {
-  @warn "Oops! Have you included the wocss-settings-colors module?"
-};
-
-@if ($wocss-tools-bem-constructor == false) {
-  @warn "Oops! Have you included the wocss-tools-bem-constructor module?"
-};
-
-@if ($wocss-tools-breakpoints == false) {
-  @warn "Oops! Have you included the wocss-tools-breakpoints module?"
-};
-
-
-
-
-
-// imports
 
 @import "trumps.align";
 @import "trumps.background-colors";
 @import "trumps.borders";
 @import "trumps.colors";
+@import "trumps.hide";
 @import "trumps.layout";
 @import "trumps.margin";
 @import "trumps.padding";
 @import "trumps.positions";
-@import "trumps.responsive-states";
+@import "trumps.show";
 @import "trumps.type-scale";
 @import "trumps.typography";

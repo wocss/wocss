@@ -1,7 +1,7 @@
 {
   "name": "wocss-trumps-utilities",
   "version": "1.0.0",
-  "description": "wocss helper classes",
+  "description": "wocss utilities classes",
   "main": "src/_trumps.utilities.scss",
   "repository": {
     "type": "git",
@@ -9,9 +9,8 @@
   },
   "keywords": [
     "bemit",
-    "css",
     "itcss",
-    "sass",
+    "scss",
     "wocss"
   ],
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
@@ -21,11 +20,11 @@
   },
   "homepage": "https://github.com/wocss/trumps.utilities#readme",
   "dependencies": {
-    "wocss-settings-colors": "^1.0.1",
-    "wocss-settings-defaults": "^1.0.1",
-    "wocss-settings-spaces": "^1.0.1",
-    "wocss-settings-typography": "^1.0.2",
+    "wocss-settings-colors": "^2.0.1",
+    "wocss-settings-global": "^1.0.0",
+    "wocss-settings-spaces": "^2.0.0",
+    "wocss-settings-typography": "^2.0.0",
     "wocss-tools-bem-constructor": "^1.0.1",
-    "wocss-tools-breakpoints": "^1.0.1"
+    "wocss-tools-mq": "^1.1.0"
   }
 }

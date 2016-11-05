@@ -1,18 +1,23 @@
+// check dependencies
+
+$wocss-settings-spaces: false !default;
+
+
+@if ($wocss-settings-spaces == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-spaces module?"
+};
+
+
+
+
+
 /*------------------------------------*\
-  #Margin
+  #MARGIN
 \*------------------------------------*/
 
 /**
- * doc: http://www.basscss.com/#basscss-margin
+ * doc: http://basscss.com/#basscss-margin
  */
-
-// variables
-
-$margin-trumps-spaces: $spaces !default;
-
-
-
-
 
 @include utility('m0') { margin: 0; }
 @include utility('mt0') { margin-top: 0; }
@@ -20,7 +25,7 @@ $margin-trumps-spaces: $spaces !default;
 @include utility('mb0') { margin-bottom: 0; }
 @include utility('ml0') { margin-left: 0; }
 
-@each $space-number, $space-value in $margin-trumps-spaces {
+@each $space-number, $space-value in $wocss-spaces {
   @include utility('m' + $space-number) { margin: $space-value; }
   @include utility('mt' + $space-number) { margin-top: $space-value; }
   @include utility('mr' + $space-number) { margin-right: $space-value; }

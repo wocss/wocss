@@ -1,46 +1,61 @@
+// check dependencies
+
+$wocss-settings-colors: false !default;
+$wocss-settings-global: false !default;
+
+
+@if ($wocss-settings-colors == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-colors module?"
+};
+
+@if ($wocss-settings-global == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-global module?"
+};
+
+
+
+
+
 /*------------------------------------*\
-  #Colors
+  #COLORS
 \*------------------------------------*/
 
 /**
  * doc: https://github.com/basscss/addons/tree/master/modules/colors
  */
 
-@include utility('primary') { color: $color-primary; }
-@include utility('secondary') { color: $color-secondary; }
-@include utility('tertiary') { color: $color-tertiary; }
+@include utility('color-primary') { color: $global-color-primary; }
+@include utility('color-secondary') { color: $global-color-secondary; }
+@include utility('color-tertiary') { color: $global-color-tertiary; }
 
-@include utility('facebook') { color: $facebook; }
-@include utility('twitter') { color: $twitter; }
-@include utility('google') { color: $google; }
-@include utility('youtube') { color: $youtube; }
+@include utility('color-facebook') { color: $global-color-facebook; }
+@include utility('color-twitter') { color: $global-color-twitter; }
+@include utility('color-google') { color: $global-color-google; }
+@include utility('color-youtube') { color: $global-color-youtube; }
 
-@include utility('text') { color: $text; }
-@include utility('default') { color: $default; }
-@include utility('error') { color: $error; }
-@include utility('warning') { color: $warning; }
-@include utility('info') { color: $info; }
-@include utility('success') { color: $success; }
+@include utility('color-error') { color: $global-color-error; }
+@include utility('color-warning') { color: $global-color-warning; }
+@include utility('color-info') { color: $global-color-info; }
+@include utility('color-success') { color: $global-color-success; }
 
 @include utility('black') { color: $black; }
-@include utility('gray') { color: $gray; }
-@include utility('silver') { color: $silver; }
 @include utility('white') { color: $white; }
 
-@include utility('aqua') { color: $aqua; }
-@include utility('blue') { color: $blue; }
+@include utility('silver') { color: $silver; }
+@include utility('gray') { color: $gray; }
 @include utility('navy') { color: $navy; }
+@include utility('blue') { color: $blue; }
+@include utility('aqua') { color: $aqua; }
 @include utility('teal') { color: $teal; }
-@include utility('green') { color: $green; }
 @include utility('olive') { color: $olive; }
+@include utility('green') { color: $green; }
 @include utility('lime') { color: $lime; }
-
 @include utility('yellow') { color: $yellow; }
 @include utility('orange') { color: $orange; }
 @include utility('red') { color: $red; }
 @include utility('fuchsia') { color: $fuchsia; }
-@include utility('purple') { color: $purple; }
 @include utility('maroon') { color: $maroon; }
+@include utility('purple') { color: $purple; }
 
 @include utility('color-inherit') { color: inherit; }
 

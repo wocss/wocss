@@ -1,8 +1,8 @@
-# Utilities
+# UTILITIES
 
-> Trumps
+> Trump
 
-The `wocss-trumps-utilities` module contains a series of helper classes. [Basscss](http://www.basscss.com/) modules using `wocss` variables.
+The `wocss-trumps-utilities` module contains a series of utilities classes, like [Basscss](http://www.basscss.com/) modules, but using `wocss` variables.
 
 Install using npm:
 
@@ -12,43 +12,58 @@ $ npm install wocss-trumps-utilities --save
 
 ## Usage
 
-With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
+With a tool like [webpack](https://webpack.github.io/) you can import all modules writing:
 
 ```scss
-// dependencies imports
-
 @import '~wocss-trumps-utilities';
+```
+
+or import only that you need:
+
+```scss
+@import '~wocss-trumps-utilities/src/trumps.hide';
 ```
 
 ### Modules
 
-#### [Align](http://www.basscss.com/#basscss-align)
+* #### [Align](http://basscss.com/#basscss-align)
 
-#### [Background colors](https://github.com/basscss/addons/tree/master/modules/background-colors)
+* #### [Background colors](https://github.com/basscss/addons/tree/master/modules/background-colors)
 
-#### [Borders](http://www.basscss.com/#basscss-border)
+  **NOTE**: Here we have extra utilities classes. e.g.: `u-bg-primary`
 
-#### [Colors](https://github.com/basscss/addons/blob/master/modules/colors)
+* #### [Borders](http://www.basscss.com/#basscss-border)
 
-#### [Layout](http://www.basscss.com/#basscss-layout)
+* #### [Colors](https://github.com/basscss/addons/blob/master/modules/colors)
 
-#### [Margin](http://www.basscss.com/#basscss-margin)
+  **NOTE**: Here we have extra utilities classes. e.g.: `u-color-primary`
 
-#### [Padding](http://www.basscss.com/#basscss-padding)
+* #### [Hide](http://basscss.com/#basscss-hide)
 
-#### [Positions](http://www.basscss.com/#basscss-position)
+* #### [Layout](http://www.basscss.com/#basscss-layout)
 
-#### [Responsive states](http://www.basscss.com/v7/docs/responsive-states/)
+* #### [Margin](http://www.basscss.com/#basscss-margin)
 
-#### [Type scale](http://www.basscss.com/#basscss-type-scale)
+* #### [Padding](http://www.basscss.com/#basscss-padding)
 
-#### [Typography](http://www.basscss.com/#basscss-typography)
+* #### [Positions](http://www.basscss.com/#basscss-position)
+
+* #### Show
+  Use these utilities to conditionally show elements based on viewport width.
+
+* #### [Type scale](http://www.basscss.com/#basscss-type-scale)
+
+  **NOTE**: The `font-size` utilities has namespace ('fz'). e.g.: `.u-fz-h1`
+
+* #### [Typography](http://www.basscss.com/#basscss-typography)
+
+  **NOTE**: The `font-weight` utilities has namespace ('fw'). e.g.: `.u-fw-regular`
 
 ## Dependencies
 
-* [wocss-settings-defaults](https://github.com/wocss/settings.default)
+* [wocss-settings-global](https://github.com/wocss/settings.global)
 * [wocss-settings-typography](https://github.com/wocss/settings.typography)
 * [wocss-settings-spaces](https://github.com/wocss/settings.spaces)
 * [wocss-settings-colors](https://github.com/wocss/settings.colors)
 * [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
-* [wocss-tools-breakpoints](https://github.com/wocss/tools.breakpoints)
+* [wocss-tools-mq](https://github.com/wocss/tools.mq)

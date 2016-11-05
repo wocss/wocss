@@ -1,18 +1,23 @@
+// check dependencies
+
+$wocss-settings-spaces: false !default;
+
+
+@if ($wocss-settings-spaces == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-spaces module?"
+};
+
+
+
+
+
 /*------------------------------------*\
-  #Padding
+  #PADDING
 \*------------------------------------*/
 
 /**
- * doc: http://www.basscss.com/#basscss-padding
+ * doc: http://basscss.com/#basscss-padding
  */
-
-// variables
-
-$padding-trumps-spaces: $spaces !default;
-
-
-
-
 
 @include utility('p0') { padding: 0; }
 @include utility('pt0') { padding-top: 0; }
@@ -20,7 +25,7 @@ $padding-trumps-spaces: $spaces !default;
 @include utility('pb0') { padding-bottom: 0; }
 @include utility('pl0') { padding-left: 0; }
 
-@each $space-number, $space-value in $padding-trumps-spaces {
+@each $space-number, $space-value in $wocss-spaces {
   @include utility('p' + $space-number) { padding: $space-value; }
   @include utility('pt' + $space-number) { padding-top: $space-value; }
   @include utility('pr' + $space-number) { padding-right: $space-value; }

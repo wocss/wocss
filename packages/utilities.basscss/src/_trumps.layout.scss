@@ -1,9 +1,9 @@
 /*------------------------------------*\
-  #Positions
+  #LAYOUT
 \*------------------------------------*/
 
 /**
- * doc: http://www.basscss.com/#basscss-layout
+ * doc: http://basscss.com/#basscss-layout
  */
 
 
@@ -16,9 +16,6 @@
 @include utility('table-cell') { display: table-cell; }
 
 
-
-
-
 // overflow
 
 @include utility('overflow-hidden') { overflow: hidden; }
@@ -26,9 +23,24 @@
 @include utility('overflow-auto') { overflow: auto; }
 
 
-
-
-
 // max Width
 
 @include utility('fit') { max-width: 100%; }
+
+
+// floats
+
+@include utility('left') { float: left; }
+@include utility('right') { float: right; }
+@include utility('clearfix') {
+
+  &::before,
+  &::after {
+    content: " ";
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}

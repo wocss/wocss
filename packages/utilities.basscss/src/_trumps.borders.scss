@@ -1,9 +1,22 @@
+// check dependencies
+
+$wocss-settings-global: false !default;
+
+
+@if ($wocss-settings-global == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-global module?"
+};
+
+
+
+
+
 /*------------------------------------*\
-  #Borders
+  #BORDERS
 \*------------------------------------*/
 
 /**
- * doc: http://www.basscss.com/#basscss-border
+ * doc: http://basscss.com/#basscss-border
  */
 
 
@@ -11,48 +24,45 @@
 
 @include utility('border') {
   border-style: solid;
-  border-width: $base-border-width;
-  border-color: $base-border-color;
+  border-width: $global-border-width;
+  border-color: $global-border-color;
 }
 
 @include utility('border-top') {
   border-top-style: solid;
-  border-top-width: $base-border-width;
-  border-top-color: $base-border-color;
+  border-top-width: $global-border-width;
+  border-top-color: $global-border-color;
 }
 
 @include utility('border-right') {
   border-right-style: solid;
-  border-right-width: $base-border-width;
-  border-right-color: $base-border-color;
+  border-right-width: $global-border-width;
+  border-right-color: $global-border-color;
 }
 
 @include utility('border-bottom') {
   border-bottom-style: solid;
-  border-bottom-width: $base-border-width;
-  border-bottom-color: $base-border-color;
+  border-bottom-width: $global-border-width;
+  border-bottom-color: $global-border-color;
 }
 
 @include utility('border-left') {
   border-left-style: solid;
-  border-left-width: $base-border-width;
-  border-left-color: $base-border-color;
+  border-left-width: $global-border-width;
+  border-left-color: $global-border-color;
 }
 
 @include utility('border-none') { border: 0; }
 
 
-
-
-
 // border radii
 
-@include utility('rounded') { border-radius: $base-border-radius; }
+@include utility('rounded') { border-radius: $global-border-radius; }
 @include utility('circle') { border-radius: 50%; }
 
-@include utility('rounded-top') { border-radius: $base-border-radius $base-border-radius 0 0; }
-@include utility('rounded-right') { border-radius: 0 $base-border-radius $base-border-radius 0; }
-@include utility('rounded-bottom') { border-radius: 0 0 $base-border-radius $base-border-radius; }
-@include utility('rounded-left') { border-radius: $base-border-radius 0 0 $base-border-radius; }
+@include utility('rounded-top') { border-radius: $global-border-radius $global-border-radius 0 0; }
+@include utility('rounded-right') { border-radius: 0 $global-border-radius $global-border-radius 0; }
+@include utility('rounded-bottom') { border-radius: 0 0 $global-border-radius $global-border-radius; }
+@include utility('rounded-left') { border-radius: $global-border-radius 0 0 $global-border-radius; }
 
 @include utility('not-rounded') { border-radius: 0; }

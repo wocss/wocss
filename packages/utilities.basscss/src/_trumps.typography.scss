@@ -1,14 +1,32 @@
+// check dependencies
+
+$wocss-settings-typography: false !default;
+
+
+@if ($wocss-settings-typography == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-typography module?"
+};
+
+
+
+
+
 /*------------------------------------*\
-  #Typography
+  #TYPOGRAPHY
 \*------------------------------------*/
 
 /**
- * doc: http://www.basscss.com/#basscss-typography
+ * doc: http://basscss.com/#basscss-typography
  */
 
-@each $fw-key, $fz-value in $font-weights {
-  @include utility($fw-key) {
-    font-weight: $fz-value;
+
+/**
+ * 1. Here we set a namespace ('fw') for font-weight utilities.
+ */
+
+@each $fw-key, $fw-value in $font-weights {
+  @include utility('fw-' + $fw-key) { /* [1] */
+    font-weight: $fw-value;
   }
 }
 

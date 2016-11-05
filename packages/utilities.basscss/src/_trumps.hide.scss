@@ -1,0 +1,37 @@
+// check dependencies
+
+$wocss-settings-breakpoints: false !default;
+$wocss-tools-mq: false !default;
+
+
+@if ($wocss-settings-breakpoints == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-breakpoints module?"
+};
+
+@if ($wocss-tools-mq == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-tools-mq module?"
+};
+
+
+
+
+
+/*------------------------------------*\
+  #HIDE
+\*------------------------------------*/
+
+/**
+ * doc: http://basscss.com/#basscss-hide
+ */
+
+@include utility('hide') {
+  display: none !important;
+
+  @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
+    @include suffix($breakpoint-key) {
+      @include mq($from: $breakpoint-value) {
+        display: none !important;
+      }
+    }
+  }
+}
