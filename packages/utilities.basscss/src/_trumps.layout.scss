@@ -1,3 +1,16 @@
+// check dependencies
+
+$wocss-tools-bem-constructor: false !default;
+
+
+@if ($wocss-tools-bem-constructor == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-tools-bem-constructor module?"
+};
+
+
+
+
+
 /*------------------------------------*\
   #LAYOUT
 \*------------------------------------*/

@@ -2,6 +2,7 @@
 
 $wocss-settings-colors: false !default;
 $wocss-settings-global: false !default;
+$wocss-tools-bem-constructor: false !default;
 
 
 @if ($wocss-settings-colors == false) {
@@ -10,6 +11,10 @@ $wocss-settings-global: false !default;
 
 @if ($wocss-settings-global == false) {
   @error "[wocss-trumps-utilities] Have you included the wocss-settings-global module?"
+};
+
+@if ($wocss-tools-bem-constructor == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-tools-bem-constructor module?"
 };
 
 
