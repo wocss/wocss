@@ -1,6 +1,6 @@
 {
   "name": "wocss-tools-layout",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "wocss' layout mixins",
   "main": "_tools.layout.scss",
   "repository": {
