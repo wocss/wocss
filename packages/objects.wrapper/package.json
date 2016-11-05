@@ -9,9 +9,8 @@
   },
   "keywords": [
     "bemit",
-    "css",
     "itcss",
-    "sass",
+    "scss",
     "wocss"
   ],
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
@@ -22,6 +21,6 @@
   "homepage": "https://github.com/wocss/objects.wrapper#readme",
   "dependencies": {
     "wocss-tools-bem-constructor": "^1.0.1",
-    "wocss-tools-layout": "^1.0.1"
+    "wocss-tools-layout": "^2.0.0"
   }
 }
