@@ -30,6 +30,11 @@ $wocss-tools-bem-constructor: false !default;
  */
 
 @include utility('hide') {
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  width: 1px !important;
 
   @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
     @include suffix($breakpoint-key) {
