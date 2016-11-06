@@ -18,7 +18,7 @@ $wocss-settings-global: false !default;
 
 // center a block element
 
-@mixin layout-center ($max-width: 1200px, $padding-x: $global-spacing-unit) {
+@mixin layout-center ($max-width: $global-max-width, $padding-x: $global-spacing-unit) {
   display: block;
   margin-left: auto;
   margin-right: auto;

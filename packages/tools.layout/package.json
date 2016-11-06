@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/wocss/tools.layout#readme",
   "dependencies": {
-    "wocss-settings-global": "^1.0.0"
+    "wocss-settings-global": "^1.1.0"
   }
 }
