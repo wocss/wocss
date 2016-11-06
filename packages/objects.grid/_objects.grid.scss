@@ -43,7 +43,7 @@ $wocss-tools-mq: false !default;
   @include modifier('stretch') {
     align-items: stretch;
 
-    @include modifies-element('col') {
+    @include modifies-element('item') {
       display: flex; /* [2] */
     }
   }
@@ -56,13 +56,13 @@ $wocss-tools-mq: false !default;
     @include modifier('gutter-' + $gutter-key) {
       margin: ($gutter-value / -2);
 
-      @include modifies-element('col') {
+      @include modifies-element('item') {
         padding: ($gutter-value / 2);
       }
     }
   }
 
-  @include element('col') {
+  @include element('item') {
     box-sizing: border-box;
     flex: 1 1 0; /* [3] */
 

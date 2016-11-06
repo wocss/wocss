@@ -24,8 +24,8 @@ Basic usage of the Grid object uses the required classes:
 
 ```html
 <div class="o-grid">
-  <div class="o-grid__col"></div>
-  <div class="o-grid__col"></div>
+  <div class="o-grid__item"></div>
+  <div class="o-grid__item"></div>
 </div>
 ```
 
@@ -33,8 +33,8 @@ Basic usage of the Grid object uses the required classes:
 
 ```html
 <div class="o-grid">
-  <div class="o-grid__col u-12/12 u-6/12@tablet"></div>
-  <div class="o-grid__col u-12/12 u-6/12@tablet"></div>
+  <div class="o-grid__item u-12/12 u-6/12@tablet"></div>
+  <div class="o-grid__item u-12/12 u-6/12@tablet"></div>
 </div>
 ```
 
@@ -42,24 +42,24 @@ Basic usage of the Grid object uses the required classes:
 
 #### `.o-grid`
 
-* `o-grid--stretch` columns with same height.
-* `o-grid--middle` columns with vertical centering.
-* `o-grid--gutter-[1|2|3|4|5|6]` alter spacing between columns, see [wocss-spaces](https://github.com/wocss/settings.spaces#spaces) variable.
+* `o-grid--stretch` items with same height.
+* `o-grid--middle` items with vertical centering.
+* `o-grid--gutter-[1|2|3|4|5|6]` alter spacing between items, see [wocss-spaces](https://github.com/wocss/settings.spaces#spaces) variable.
 
-#### `.o-grid__col`
+#### `.o-grid__item`
 
 All modifiers may be prefixed with `@[mobile|tablet|laptop]` by default, see [wocss-breakpoints](https://github.com/wocss/settings.breakpoints) variable.
 
-* `o-grid__col--auto` the width of this column is based on its content width.
-* `o-grid__col--fit` this column will take up the remaining space available.
+* `o-grid__item--auto` the width of this item is based on its content width.
+* `o-grid__item--fit` this item will take up the remaining space available.
 
 For example:
 
 ```html
 <div class="o-grid o-grid--gutter-3">
-  <div class="o-grid__col"></div>
-  <div class="o-grid__col"></div>
-  <div class="o-grid__col"></div>
+  <div class="o-grid__item"></div>
+  <div class="o-grid__item"></div>
+  <div class="o-grid__item"></div>
 </div>
 ```
 
