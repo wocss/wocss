@@ -67,3 +67,4 @@ or import only that you need:
 * [wocss-settings-colors](https://github.com/wocss/settings.colors)
 * [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
 * [wocss-tools-mq](https://github.com/wocss/tools.mq)
+* [wocss-tools-resets](https://github.com/wocss/tools.resets)

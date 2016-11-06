@@ -25,6 +25,7 @@
     "wocss-settings-spaces": "^2.0.0",
     "wocss-settings-typography": "^2.0.0",
     "wocss-tools-bem-constructor": "^1.0.1",
-    "wocss-tools-mq": "^1.1.0"
+    "wocss-tools-mq": "^1.1.0",
+    "wocss-tools-resets": "^2.0.0"
   }
 }

@@ -2,6 +2,7 @@
 
 $wocss-settings-typography: false !default;
 $wocss-tools-bem-constructor: false !default;
+$wocss-tools-resets: false !default;
 
 
 @if ($wocss-settings-typography == false) {
@@ -11,6 +12,11 @@ $wocss-tools-bem-constructor: false !default;
 @if ($wocss-tools-bem-constructor == false) {
   @error "[wocss-trumps-utilities] Have you included the wocss-tools-bem-constructor module?"
 };
+
+@if ($wocss-tools-resets == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-tools-resets module?"
+};
+
 
 
 
@@ -60,4 +66,8 @@ $wocss-tools-bem-constructor: false !default;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+@include utility('list-reset') {
+  @include reset-list();
 }
