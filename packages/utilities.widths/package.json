@@ -1,0 +1,26 @@
+{
+  "name": "wocss-utilities-widths",
+  "version": "1.0.0",
+  "description": "wocss' widths utilities",
+  "main": "_utilities.widths.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wocss/utilities.widths.git"
+  },
+  "keywords": [
+    "bemit",
+    "itcss",
+    "scss",
+    "wocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wocss/utilities.widths/issues"
+  },
+  "homepage": "https://github.com/wocss/utilities.widths#readme",
+  "dependencies": {
+    "wocss-tools-bem-constructor": "^1.0.4",
+    "wocss-tools-mq": "^1.1.0"
+  }
+}
