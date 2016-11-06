@@ -34,7 +34,7 @@ $wocss-tools-resets: false !default;
  * 1. Here we set a namespace ('fw') for font-weight utilities.
  */
 
-@each $fw-key, $fw-value in $font-weights {
+@each $fw-key, $fw-value in $wocss-font-weights {
   @include utility('fw-' + $fw-key) { /* [1] */
     font-weight: $fw-value;
   }
