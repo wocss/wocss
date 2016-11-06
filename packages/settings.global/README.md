@@ -38,12 +38,6 @@ With a tool like [webpack](https://webpack.github.io/) you can import this modul
 | `$global-color-info` | `#3aa3e3` |
 | `$global-color-success` | `#2ab27b` |
 
-#### Spaces
-
-| Variable name | Default value |
-|---------------|-------|
-| `$global-spacing-unit` | `1.5rem` |
-
 #### Borders
 
 | Variable name | Default value |
@@ -51,3 +45,10 @@ With a tool like [webpack](https://webpack.github.io/) you can import this modul
 | `$global-border-radius` | `3px` |
 | `$global-border-width` | `1px` |
 | `$global-border-color` | `$global-color-primary` |
+
+#### Others
+
+| Variable name | Default value |
+|---------------|-------|
+| `$global-spacing-unit` | `1.5rem` |
+| `$global-max-width` | `75rem` |

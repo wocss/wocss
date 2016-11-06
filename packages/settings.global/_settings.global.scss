@@ -29,22 +29,23 @@ $global-color-success: #2ab27b !default;
 
 
 /*------------------------------------*\
-  #SPACES
-\*------------------------------------*/
-
-$global-spacing-unit: 1.5rem !default;
-
-
-
-
-
-/*------------------------------------*\
   #BORDER
 \*------------------------------------*/
 
 $global-border-radius: 3px !default;
 $global-border-width: 1px !default;
 $global-border-color: $global-color-primary !default;
+
+
+
+
+
+/*------------------------------------*\
+  #OTHERS
+\*------------------------------------*/
+
+$global-spacing-unit: 1.5rem !default;
+$global-max-width: 75rem !default; // 1200px
 
 
 
