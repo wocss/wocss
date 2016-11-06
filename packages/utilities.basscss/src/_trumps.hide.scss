@@ -30,7 +30,6 @@ $wocss-tools-bem-constructor: false !default;
  */
 
 @include utility('hide') {
-  display: none !important;
 
   @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
     @include suffix($breakpoint-key) {
@@ -39,4 +38,8 @@ $wocss-tools-bem-constructor: false !default;
       }
     }
   }
+}
+
+@include utility('display-none') {
+  display: none !important;
 }
