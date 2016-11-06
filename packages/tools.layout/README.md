@@ -22,7 +22,7 @@ With a tool like [webpack](https://webpack.github.io/) you can import this modul
 
 Then you can use these mixins:
 
-#### layout-center($max-width: 1200px, $padding-x: $global-spacing-unit)
+#### layout-center($max-width: $global-max-width, $padding-x: $global-spacing-unit)
 
 Center the element.
 
