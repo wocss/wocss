@@ -34,9 +34,14 @@ $wocss-settings-global: false !default;
 
 // create a block element
 
-@mixin layout-block () {
+@mixin layout-block ($padding-x: $global-spacing-unit) {
   display: block;
   width: 100%;
+
+  @if $padding-x != false {
+    padding-left: $padding-x;
+    padding-right: $padding-x;
+  }
 }
 
 

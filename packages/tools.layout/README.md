@@ -44,7 +44,7 @@ Result:
 }
 ```
 
-#### layout-block()
+#### layout-block($padding-x: $global-spacing-unit)
 
 It makes an element a block.
 
@@ -60,6 +60,8 @@ Result:
 .container {
   display: block;
   width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 ```
 
