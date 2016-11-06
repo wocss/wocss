@@ -42,6 +42,8 @@ or import only that you need:
 
 * #### [Layout](http://www.basscss.com/#basscss-layout)
 
+  There is not `max-width` utilities. (check [wocss-objects-wrapper](https://github.com/wocss/objects.wrapper))
+
 * #### [Margin](http://www.basscss.com/#basscss-margin)
 
 * #### [Padding](http://www.basscss.com/#basscss-padding)
