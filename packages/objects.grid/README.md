@@ -48,7 +48,7 @@ Basic usage of the Grid object uses the required classes:
 
 #### `.o-grid__item`
 
-All modifiers may be prefixed with `@[mobile|tablet|laptop]` by default, see [wocss-breakpoints](https://github.com/wocss/settings.breakpoints) variable.
+All modifiers may be suffixed with `@[mobile|tablet|laptop]` by default, see [wocss-breakpoints](https://github.com/wocss/settings.breakpoints) module.
 
 * `o-grid__item--auto` the width of this item is based on its content width.
 * `o-grid__item--fit` this item will take up the remaining space available.
