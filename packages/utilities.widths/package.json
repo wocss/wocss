@@ -1,6 +1,6 @@
 {
   "name": "wocss-utilities-widths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities classes for dealing with widths",
   "main": "_utilities.widths.scss",
   "repository": {
