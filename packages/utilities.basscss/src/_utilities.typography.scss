@@ -6,15 +6,15 @@ $wocss-tools-resets: false !default;
 
 
 @if ($wocss-settings-typography == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-settings-typography module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-settings-typography module?"
 };
 
 @if ($wocss-tools-bem-constructor == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-tools-bem-constructor module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-tools-bem-constructor module?"
 };
 
 @if ($wocss-tools-resets == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-tools-resets module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-tools-resets module?"
 };
 
 

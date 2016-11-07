@@ -1,13 +1,13 @@
-# UTILITIES
+# BASSCSS
 
-> Trump
+> Utility
 
-The `wocss-trumps-utilities` module contains a port of  [BassCSS](https://github.com/basscss/basscss/#basscss) library using `wocss` variables and the [BEMIT](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) naming convention.
+The `wocss-utilities-basscss` module contains a port of  [BassCSS](https://github.com/basscss/basscss/#basscss) library using `wocss` variables and the [BEMIT](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) naming convention.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-trumps-utilities --save
+$ npm install wocss-utilities-basscss --save
 ```
 
 ## Usage
@@ -15,14 +15,14 @@ $ npm install wocss-trumps-utilities --save
 With a tool like [webpack](https://webpack.github.io/) you can import all modules writing:
 
 ```scss
-@import '~wocss-trumps-utilities';
+@import '~wocss-utilities-basscss';
 ```
 
 or import only that you need:
 
 ```scss
-@import '~wocss-trumps-utilities/src/trumps.hide';
-@import '~wocss-trumps-utilities/src/trumps.show';
+@import '~wocss-utilities-basscss/src/utilities.hide';
+@import '~wocss-utilities-basscss/src/utilities.show';
 ```
 
 ### Modules

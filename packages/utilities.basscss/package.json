@@ -1,11 +1,11 @@
 {
-  "name": "wocss-trumps-utilities",
+  "name": "wocss-utilities-basscss",
   "version": "2.2.1",
   "description": "BassCSS port",
-  "main": "src/_trumps.utilities.scss",
+  "main": "src/_utilities.basscss.scss",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wocss/trumps.utilities.git"
+    "url": "git+https://github.com/wocss/utilities.basscss.git"
   },
   "keywords": [
     "bemit",
@@ -14,11 +14,11 @@
     "wocss"
   ],
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wocss/trumps.utilities/issues"
+    "url": "https://github.com/wocss/utilities.basscss/issues"
   },
-  "homepage": "https://github.com/wocss/trumps.utilities#readme",
+  "homepage": "https://github.com/wocss/utilities.basscss#readme",
   "dependencies": {
     "wocss-settings-colors": "^2.0.1",
     "wocss-settings-global": "^1.0.0",

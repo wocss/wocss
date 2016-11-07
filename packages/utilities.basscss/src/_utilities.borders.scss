@@ -5,11 +5,11 @@ $wocss-tools-bem-constructor: false !default;
 
 
 @if ($wocss-settings-global == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-settings-global module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-settings-global module?"
 };
 
 @if ($wocss-tools-bem-constructor == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-tools-bem-constructor module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-tools-bem-constructor module?"
 };
 
 

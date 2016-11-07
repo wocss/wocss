@@ -6,15 +6,15 @@ $wocss-tools-bem-constructor: false !default;
 
 
 @if ($wocss-settings-breakpoints == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-settings-breakpoints module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-settings-breakpoints module?"
 };
 
 @if ($wocss-tools-mq == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-tools-mq module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-tools-mq module?"
 };
 
 @if ($wocss-tools-bem-constructor == false) {
-  @error "[wocss-trumps-utilities] Have you included the wocss-tools-bem-constructor module?"
+  @error "[wocss-utilities-basscss] Have you included the wocss-tools-bem-constructor module?"
 };
 
 
