@@ -1,0 +1,99 @@
+// check dependencies
+
+$wocss-settings-breakpoints: false !default;
+$wocss-tools-mq: false !default;
+$wocss-tools-bem-constructor: false !default;
+
+
+@if ($wocss-settings-breakpoints == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-settings-breakpoints module?"
+};
+
+@if ($wocss-tools-mq == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-tools-mq module?"
+};
+
+@if ($wocss-tools-bem-constructor == false) {
+  @error "[wocss-trumps-utilities] Have you included the wocss-tools-bem-constructor module?"
+};
+
+
+
+
+
+/*------------------------------------*\
+  #FLEXBOX
+\*------------------------------------*/
+
+/**
+ * doc: http://basscss.com/#basscss-flexbox
+ */
+
+@include utility('inline-flex') {
+  display: inline-flex;
+
+  @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
+    @include suffix($breakpoint-key) {
+      @include mq($from: $breakpoint-value) {
+        display: inline-flex
+      }
+    }
+  }
+}
+
+@include utility('flex') {
+  display: flex;
+
+  @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
+    @include suffix($breakpoint-key) {
+      @include mq($from: $breakpoint-value) {
+        display: flex;
+      }
+    }
+  }
+}
+
+@include utility('flex-column') { flex-direction: column; }
+@include utility('flex-row') { flex-direction: row; }
+@include utility('flex-wrap') { flex-wrap: wrap; }
+
+@include utility('items-baseline') { align-items: baseline; }
+@include utility('items-center') { align-items: center; }
+@include utility('items-end') { align-items: flex-end; }
+@include utility('items-start') { align-items: flex-start; }
+@include utility('items-stretch') { align-items: stretch; }
+
+@include utility('justify-around') { justify-content: space-around; }
+@include utility('justify-between') { justify-content: space-between; }
+@include utility('justify-center') { justify-content: center; }
+@include utility('justify-end') { justify-content: flex-end; }
+@include utility('justify-start') { justify-content: flex-start; }
+
+@include utility('content-around') { align-content: space-around; }
+@include utility('content-between') { align-content: space-between; }
+@include utility('content-center') { align-content: center; }
+@include utility('content-end') { align-content: flex-end; }
+@include utility('content-start') { align-content: flex-start; }
+@include utility('content-stretch') { align-content: stretch; }
+
+@include utility('self-baseline') { align-self: baseline; }
+@include utility('self-center') { align-self: center; }
+@include utility('self-end') { align-self: flex-end; }
+@include utility('self-start') { align-self: flex-start; }
+@include utility('self-stretch') { align-self: stretch; }
+
+@include utility('flex-auto') {
+  flex: 1 1 auto;
+  width: auto;
+}
+@include utility('flex-fit') {
+  box-sizing: border-box;
+  flex: 1 1 0;
+}
+@include utility('flex-none') { flex: none; }
+
+@include utility('order-0') { order: 0; }
+@include utility('order-1') { order: 1; }
+@include utility('order-2') { order: 2; }
+@include utility('order-3') { order: 3; }
+@include utility('order-last') { order: 99999; }

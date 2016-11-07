@@ -38,6 +38,10 @@ or import only that you need:
 
   **NOTE**: Here we have extra utilities classes. e.g.: `u-color-primary`
 
+* #### [Flexbox](http://basscss.com/#basscss-flexbox)
+
+  **NOTE**: There is a `u-flex-fit` (it can shrink to 0 width) and `u-flex-auto` (it can shrink to content width)
+
 * #### [Hide](http://basscss.com/#basscss-hide)
 
 * #### [Layout](http://www.basscss.com/#basscss-layout)
