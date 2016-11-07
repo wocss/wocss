@@ -2,7 +2,7 @@
 
 > Trump
 
-The `wocss-trumps-utilities` module contains a series of utilities classes, like [Basscss](http://www.basscss.com/) modules, but using `wocss` variables.
+The `wocss-trumps-utilities` module contains a port of  [BassCSS](https://github.com/basscss/basscss/#basscss) library using `wocss` variables and the [BEMIT](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) naming convention.
 
 Install using npm:
 
@@ -22,6 +22,7 @@ or import only that you need:
 
 ```scss
 @import '~wocss-trumps-utilities/src/trumps.hide';
+@import '~wocss-trumps-utilities/src/trumps.show';
 ```
 
 ### Modules
@@ -46,7 +47,7 @@ or import only that you need:
 
 * #### [Layout](http://www.basscss.com/#basscss-layout)
 
-  There is not `max-width` utilities. (check [wocss-objects-wrapper](https://github.com/wocss/objects.wrapper))
+  **NOTE**: There is not `max-width` utilities. (check [wocss-objects-wrapper](https://github.com/wocss/objects.wrapper))
 
 * #### [Margin](http://www.basscss.com/#basscss-margin)
 
@@ -59,11 +60,11 @@ or import only that you need:
 
 * #### [Type scale](http://www.basscss.com/#basscss-type-scale)
 
-  **NOTE**: The `font-size` utilities has namespace ('fz'). e.g.: `.u-fz-h1`
+  **NOTE**: The `font-size` utilities has a extra namespace (`'fz'`). e.g.: `.u-fz-h1`
 
 * #### [Typography](http://www.basscss.com/#basscss-typography)
 
-  **NOTE**: The `font-weight` utilities has namespace ('fw'). e.g.: `.u-fw-regular`
+  **NOTE**: The `font-weight` utilities has a extra namespace (`'fw'`). e.g.: `.u-fw-regular`
 
 ## Dependencies
 

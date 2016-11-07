@@ -1,7 +1,7 @@
 {
   "name": "wocss-trumps-utilities",
   "version": "2.2.0",
-  "description": "wocss utilities classes",
+  "description": "BassCSS port",
   "main": "src/_trumps.utilities.scss",
   "repository": {
     "type": "git",
