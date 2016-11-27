@@ -24,7 +24,7 @@ Then you can use these mixins:
 
 #### reset-list()
 
-Removes any styles that were previously set on a list, clearing out all the margins and padding that are there by default.
+Removes any styles that were previously set on a list.
 
 ```scss
 .items {
@@ -37,8 +37,6 @@ Result:
 ```css
 .items {
   list-style: none;
-  margin-bottom: 0;
-  margin-top: 0;
   padding-left: 0;
 }
 ```
