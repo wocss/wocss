@@ -37,6 +37,7 @@ $wocss-tools-bem-constructor: false !default;
 @include utility('bg-twitter') { background-color: $global-color-twitter; }
 @include utility('bg-google') { background-color: $global-color-google; }
 @include utility('bg-youtube') { background-color: $global-color-youtube; }
+@include utility('bg-whatsapp') { background-color: $global-color-whatsapp; }
 
 @include utility('bg-error') { background-color: $global-color-error; }
 @include utility('bg-warning') { background-color: $global-color-warning; }
