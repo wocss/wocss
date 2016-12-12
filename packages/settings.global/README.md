@@ -26,13 +26,14 @@ With a tool like [webpack](https://webpack.github.io/) you can import this modul
 
 | Variable name | Default value |
 |---------------|-------|
-| `$global-color-primary` | `#7809BA` |
-| `$global-color-secondary` | `#D4007C` |
-| `$global-color-tertiary` | `#3A14BE` |
+| `$global-color-primary` | `#7809ba` |
+| `$global-color-secondary` | `#d4007c` |
+| `$global-color-tertiary` | `#3a14be` |
 | `$global-color-facebook` | `#3b5999` |
 | `$global-color-twitter` | `#55acee` |
 | `$global-color-google` | `#dc4e41` |
 | `$global-color-youtube` | `#e52d27` |
+| `$global-color-whatsapp` | `#43d854` |
 | `$global-color-error` | `#cb5234` |
 | `$global-color-warning` | `#edb431` |
 | `$global-color-info` | `#3aa3e3` |
