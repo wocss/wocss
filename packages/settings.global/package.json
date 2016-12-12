@@ -1,6 +1,6 @@
 {
   "name": "wocss-settings-global",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Global variables",
   "main": "_settings.global.scss",
   "repository": {
