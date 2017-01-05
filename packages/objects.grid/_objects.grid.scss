@@ -80,22 +80,7 @@ $_suffix-namespace: if($bem-use-namespaces, $bem-suffix-namespace, '');
   }
 
   .#{$_object-namespace}grid__item--fit {
-    flex: 1 1 0;
-  }
-
-  @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
-    .#{$_object-namespace}grid__item--auto#{$_suffix-namespace + $breakpoint-key} {
-      @include mq($from: $breakpoint-value) {
-        flex: 1 1 auto;
-        width: auto;
-      }
-    }
-
-    .#{$_object-namespace}grid__item--fit#{$_suffix-namespace + $breakpoint-key} {
-      @include mq($from: $breakpoint-value) {
-        flex: 1 1 0;
-      }
-    }
+    flex: 1 1 0; /* [3] */
   }
 
 
@@ -106,7 +91,6 @@ $_suffix-namespace: if($bem-use-namespaces, $bem-suffix-namespace, '');
 .#{$_object-namespace}grid--middle {
   align-items: stretch;
 }
-
 
 @each $gutter-key, $gutter-value in $wocss-spaces {
 
