@@ -45,13 +45,13 @@ Basic usage of the Grid object uses the required classes:
 * `o-grid--stretch` items with same height.
 * `o-grid--middle` items with vertical centering.
 * `o-grid--gutter-[1|2|3|4|5|6]` alter spacing between items, see [wocss-spaces](https://github.com/wocss/settings.spaces#spaces) variable.
+* `o-grid--gutter-x-[1|2|3|4|5|6]` alter spacing between items on `x` axis, see [wocss-spaces](https://github.com/wocss/settings.spaces#spaces) variable.
+* `o-grid--gutter-y-[1|2|3|4|5|6]` alter spacing between items on `y` axis, see [wocss-spaces](https://github.com/wocss/settings.spaces#spaces) variable.
 
 #### `.o-grid__item`
 
-All modifiers may be suffixed with `@[mobile|tablet|laptop]` by default, see [wocss-breakpoints](https://github.com/wocss/settings.breakpoints) module.
-
 * `o-grid__item--auto` the width of this item is based on its content width.
-* `o-grid__item--fit` this item will take up the remaining space available.
+* `o-grid__item--fit` this item will take up the remaining space available. (modifier applied by default)
 
 For example:
 
