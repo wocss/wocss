@@ -61,6 +61,16 @@ $_suffix-namespace: if($bem-use-namespaces, $bem-suffix-namespace, '');
       .#{$_object-namespace}grid--gutter-#{$gutter-key} > & {
         padding: ($gutter-value / 2);
       }
+
+      .#{$_object-namespace}grid--gutter-x-#{$gutter-key} > & {
+        padding-left: ($gutter-value / 2);
+        padding-right: ($gutter-value / 2);
+      }
+
+      .#{$_object-namespace}grid--gutter-y-#{$gutter-key} > & {
+        padding-bottom: ($gutter-value / 2);
+        padding-top: ($gutter-value / 2);
+      }
     }
   }
 
@@ -102,5 +112,15 @@ $_suffix-namespace: if($bem-use-namespaces, $bem-suffix-namespace, '');
 
   .#{$_object-namespace}grid--gutter-#{$gutter-key} {
     margin: ($gutter-value / -2);
+  }
+
+  .#{$_object-namespace}grid--gutter-x-#{$gutter-key} {
+    margin-left: ($gutter-value / -2);
+    margin-right: ($gutter-value / -2);
+  }
+
+  .#{$_object-namespace}grid--gutter-y-#{$gutter-key} {
+    margin-bottom: ($gutter-value / -2);
+    margin-top: ($gutter-value / -2);
   }
 }
