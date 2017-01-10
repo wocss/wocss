@@ -85,11 +85,11 @@ $_suffix-namespace: if($bem-use-namespaces, $bem-suffix-namespace, '');
 
 
 .#{$_object-namespace}grid--stretch {
-  align-items: center;
+  align-items: stretch;
 }
 
 .#{$_object-namespace}grid--middle {
-  align-items: stretch;
+  align-items: center;
 }
 
 @each $gutter-key, $gutter-value in $wocss-spaces {
