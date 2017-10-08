@@ -32,7 +32,7 @@ $wocss-tools-bem-constructor: false !default;
 @include utility('show') {
   @each $breakpoint-key, $breakpoint-value in $wocss-breakpoints {
     @include suffix($breakpoint-key) {
-      @include mq($until: $breakpoint-value) {
+      @include mq($until: $breakpoint-key) {
         display: none !important;
       }
     }
