@@ -1,4 +1,4 @@
 node_modules/
 lerna-debug.log
 packages/*/yarn.lock
-packages/*/package-lock.lock
+packages/*/package-lock.json
