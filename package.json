@@ -2,7 +2,7 @@
   "name": "wocss",
   "private": true,
   "scripts": {
-    "publish": "lerna version --conventional-commits",
+    "new-version": "lerna version --conventional-commits",
     "commit": "npx git-cz"
   },
   "husky": {

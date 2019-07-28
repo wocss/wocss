@@ -13,6 +13,11 @@ lerna bootstrap
 
 ## Development
 
+### Update packages (with changes) version and changelog, push changes
+```
+npm run new-version
+```
+
 ### Commit your changes using [commitizen](https://github.com/commitizen/cz-cli)
 ```
 npm run commit
