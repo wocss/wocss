@@ -4,11 +4,9 @@
   ],
   "command": {
     "version": {
-      "allowBranch": "master"
+      "allowBranch": "master",
+      "message": "chore: publish %s"
     }
-  },
-  "publish": {
-    "message": "chore: publish"
   },
   "version": "independent"
 }
