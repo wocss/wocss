@@ -1,29 +1,33 @@
 {
-  "name": "wocss-starter-kit",
+  "name": "@wocss/starter-kit",
   "version": "3.0.0",
   "description": "wocss starter kit",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/starter-kit.git"
-  },
   "keywords": [
     "bemit",
     "itcss",
     "scss",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/starter-kit/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git",
+    "directory": "packages/starter-kit"
   },
-  "homepage": "https://github.com/wocss/starter-kit#readme",
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/starter-kit#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "wocss-generic-sanitize": "^1.0.0",
-    "wocss-settings-breakpoints": "^2.0.2",
-    "wocss-settings-colors": "^2.0.1",
-    "wocss-settings-typography": "^2.0.0",
-    "wocss-tools-bem-constructor": "^1.0.4",
-    "wocss-tools-mq": "^1.1.0"
+    "@wocss/generic-sanitize": "^1.0.0",
+    "@wocss/settings-breakpoints": "^2.0.2",
+    "@wocss/settings-colors": "^2.0.1",
+    "@wocss/settings-typography": "^2.0.0",
+    "@wocss/tools-bem-constructor": "^1.0.4",
+    "@wocss/tools-mq": "^1.1.0"
   }
 }
