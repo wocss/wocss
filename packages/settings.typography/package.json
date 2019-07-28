@@ -1,6 +1,6 @@
 {
   "name": "@wocss/settings-typography",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Font size and weight variables",
   "main": "_settings.typography.scss",
   "keywords": [
@@ -11,8 +11,8 @@
     "wocss"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/wocss/wocss.git",
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git",
     "directory": "packages/settings.typography"
   },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",

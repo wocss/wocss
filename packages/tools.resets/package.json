@@ -1,6 +1,6 @@
 {
   "name": "@wocss/tools-resets",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "wocss' resets mixins",
   "main": "_tools.resets.scss",
   "keywords": [
@@ -10,8 +10,8 @@
     "wocss"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/wocss/wocss.git",
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git",
     "directory": "packages/tools.resets"
   },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",

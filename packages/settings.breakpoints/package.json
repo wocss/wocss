@@ -1,6 +1,6 @@
 {
   "name": "@wocss/settings-breakpoints",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Media queries breakpoints variables",
   "main": "_settings.breakpoints.scss",
   "keywords": [
@@ -11,8 +11,8 @@
     "wocss"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/wocss/wocss.git",
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git",
     "directory": "packages/settings.breakpoints"
   },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",

@@ -1,6 +1,6 @@
 {
   "name": "@wocss/generic-sanitize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom sanitize.css",
   "main": "_generic.sanitize.scss",
   "keywords": [
@@ -10,8 +10,8 @@
     "wocss"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/wocss/wocss.git",
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git",
     "directory": "packages/generic.sanitize"
   },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",

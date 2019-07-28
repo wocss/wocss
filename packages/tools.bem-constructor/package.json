@@ -1,6 +1,6 @@
 {
   "name": "@wocss/tools-bem-constructor",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "bem-constructor wrapper",
   "main": "_tools.bem-constructor.scss",
   "keywords": [
@@ -11,8 +11,8 @@
     "wocss"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/wocss/wocss.git",
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git",
     "directory": "packages/tools.bem-constructor"
   },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",

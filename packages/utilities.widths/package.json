@@ -1,6 +1,6 @@
 {
   "name": "@wocss/utilities-widths",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utilities classes for dealing with widths",
   "main": "_utilities.widths.scss",
   "keywords": [
@@ -10,8 +10,8 @@
     "wocss"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/wocss/wocss.git",
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git",
     "directory": "packages/utilities.widths"
   },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/wocss/wocss/tree/master/packages/utilities.widths#readme",
   "dependencies": {
-    "@wocss/tools-bem-constructor": "^1.0.4",
-    "@wocss/tools-mq": "^1.1.0"
+    "@wocss/tools-bem-constructor": "^1.0.5",
+    "@wocss/tools-mq": "^1.1.1"
   }
 }
