@@ -8,7 +8,7 @@
     }
   },
   "publish": {
-    "message": "chore(release) publish"
+    "message": "chore: publish"
   },
   "version": "independent"
 }
