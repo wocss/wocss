@@ -1,6 +1,6 @@
 {
   "name": "@wocss/utilities-widths",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Utilities classes for dealing with widths",
   "main": "_utilities.widths.scss",
   "keywords": [
@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@wocss/tools-bem-constructor": "^1.0.5",
-    "@wocss/tools-mq": "^1.1.1"
+    "@wocss/tools-bem-constructor": "^1.0.6",
+    "@wocss/tools-mq": "^1.1.2"
   }
 }

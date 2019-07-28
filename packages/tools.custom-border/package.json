@@ -1,6 +1,6 @@
 {
   "name": "@wocss/tools-custom-border",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Mixins that allow create borders with customizable width and height.",
   "main": "_tools.custom-border.scss",
   "keywords": [
@@ -24,6 +24,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@wocss/settings-global": "^1.3.0"
+    "@wocss/settings-global": "^1.3.1"
   }
 }

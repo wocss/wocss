@@ -1,6 +1,6 @@
 {
   "name": "@wocss/objects-media",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "wocss' media object",
   "main": "_objects.media.scss",
   "keywords": [
@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@wocss/settings-spaces": "^2.0.1",
-    "@wocss/tools-bem-constructor": "^1.0.5"
+    "@wocss/settings-spaces": "^2.0.2",
+    "@wocss/tools-bem-constructor": "^1.0.6"
   }
 }

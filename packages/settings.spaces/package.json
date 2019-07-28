@@ -1,6 +1,6 @@
 {
   "name": "@wocss/settings-spaces",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Gutter variables",
   "main": "_settings.spaces.scss",
   "keywords": [
