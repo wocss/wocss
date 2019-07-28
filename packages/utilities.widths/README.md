@@ -2,12 +2,12 @@
 
 > Utility
 
-The `wocss-utilities-widths` generates a series of utility classes that give a fluid width to whichever element they’re applied. These classes are most commonly used in conjunction with the [wocss-objects-grid](https://github.com/wocss/objects.grid) module,
+The `@wocss/utilities-widths` generates a series of utility classes that give a fluid width to whichever element they’re applied. These classes are most commonly used in conjunction with the [@wocss/objects-grid](https://github.com/wocss/wocss/tree/master/packages/objects.grid#readme) module,
 
 Install using npm:
 
 ```sh
-$ npm install wocss-utilities-widths --save
+$ npm install @wocss/utilities-widths --save
 ```
 
 ## Usage
@@ -15,10 +15,10 @@ $ npm install wocss-utilities-widths --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-utilities-widths';
+@import '~@wocss/utilities-widths';
 ```
 
-All classes might be suffixed with `@[mobile|tablet|laptop]` by default, see the [wocss-settings-breakpoints](https://github.com/wocss/settings.breakpoints).
+All classes might be suffixed with `@[mobile|tablet|laptop]` by default, see the [@wocss/settings-breakpoints](https://github.com/wocss/wocss/tree/master/packages/settings.breakpoints#readme).
 
 e.g.:
 

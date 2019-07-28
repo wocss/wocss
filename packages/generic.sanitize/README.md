@@ -2,12 +2,12 @@
 
 > Generic
 
-The `wocss-generic-sanitize` module contains a custom [sanitize.css](https://github.com/jonathantneal/sanitize.css).
+The `@wocss/generic-sanitize` module contains a custom [sanitize.css](https://github.com/jonathantneal/sanitize.css).
 
 Install using npm:
 
 ```sh
-$ npm install wocss-generic-sanitize --save
+$ npm install @wocss/generic-sanitize --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install wocss-generic-sanitize --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-generic-sanitize';
+@import '~@wocss/generic-sanitize';
 ```
 
 ## Custom features

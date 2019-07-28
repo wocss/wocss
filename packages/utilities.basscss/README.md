@@ -2,12 +2,12 @@
 
 > Utility
 
-The `wocss-utilities-basscss` module contains a port of  [BassCSS](https://github.com/basscss/basscss/#basscss) library using `wocss` variables and the [BEMIT](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) naming convention.
+The `@wocss/utilities-basscss` module contains a port of  [BassCSS](https://github.com/basscss/basscss/#basscss) library using `wocss` variables and the [BEMIT](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) naming convention.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-utilities-basscss --save
+$ npm install @wocss/utilities-basscss --save
 ```
 
 ## Usage
@@ -15,14 +15,14 @@ $ npm install wocss-utilities-basscss --save
 With a tool like [webpack](https://webpack.github.io/) you can import all modules writing:
 
 ```scss
-@import '~wocss-utilities-basscss';
+@import '~@wocss/utilities-basscss';
 ```
 
 or import only that you need:
 
 ```scss
-@import '~wocss-utilities-basscss/src/utilities.hide';
-@import '~wocss-utilities-basscss/src/utilities.show';
+@import '~@wocss/utilities-basscss/src/utilities.hide';
+@import '~@wocss/utilities-basscss/src/utilities.show';
 ```
 
 ### Modules
@@ -47,7 +47,7 @@ or import only that you need:
 
 * #### [Layout](http://www.basscss.com/#basscss-layout)
 
-  **NOTE**: There is not `max-width` utilities. (check [wocss-objects-wrapper](https://github.com/wocss/objects.wrapper))
+  **NOTE**: There is not `max-width` utilities. (check [@wocss/objects-wrapper](https://github.com/wocss/wocss/tree/master/packages/objects.wrapper#readme))
 
 * #### [Margin](http://www.basscss.com/#basscss-margin)
 
@@ -68,10 +68,10 @@ or import only that you need:
 
 ## Dependencies
 
-* [wocss-settings-global](https://github.com/wocss/settings.global)
-* [wocss-settings-typography](https://github.com/wocss/settings.typography)
-* [wocss-settings-spaces](https://github.com/wocss/settings.spaces)
-* [wocss-settings-colors](https://github.com/wocss/settings.colors)
-* [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
-* [wocss-tools-mq](https://github.com/wocss/tools.mq)
-* [wocss-tools-resets](https://github.com/wocss/tools.resets)
+* [@wocss/settings-global](https://github.com/wocss/wocss/tree/master/packages/settings.global#readme)
+* [@wocss/settings-typography](https://github.com/wocss/wocss/tree/master/packages/settings.typography#readme)
+* [@wocss/settings-spaces](https://github.com/wocss/wocss/tree/master/packages/settings.spaces#readme)
+* [@wocss/settings-colors](https://github.com/wocss/wocss/tree/master/packages/settings.colors#readme)
+* [@wocss/tools-bem-constructor](https://github.com/wocss/wocss/tree/master/packages/tools.bem-constructor#readme)
+* [@wocss/tools-mq](https://github.com/wocss/wocss/tree/master/packages/tools.mq#readme)
+* [@wocss/tools-resets](https://github.com/wocss/wocss/tree/master/packages/tools.resets#readme)

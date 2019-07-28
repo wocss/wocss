@@ -2,14 +2,14 @@
 
 > Setting
 
-The `wocss-settings-global` module contains settings that are available to your entire project. These variables and settings could be font families, colors, borders values, etc.
+The `@wocss/settings-global` module contains settings that are available to your entire project. These variables and settings could be font families, colors, borders values, etc.
 
 By default each variable in it, is required by some modules.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-settings-global --save
+$ npm install @wocss/settings-global --save
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ $ npm install wocss-settings-global --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-settings-global';
+@import '~@wocss/settings-global';
 ```
 
 ### Variables

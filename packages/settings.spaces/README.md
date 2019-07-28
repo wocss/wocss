@@ -2,12 +2,12 @@
 
 > Setting
 
-The `wocss-settings-spaces` module contains gutter `variables` for the framework. Feel free to reassign these variables.
+The `@wocss/settings-spaces` module contains gutter `variables` for the framework. Feel free to reassign these variables.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-settings-spaces --save
+$ npm install @wocss/settings-spaces --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install wocss-settings-spaces --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-settings-spaces';
+@import '~@wocss/settings-spaces';
 ```
 
 ### Variables list

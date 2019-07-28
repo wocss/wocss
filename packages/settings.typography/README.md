@@ -2,12 +2,12 @@
 
 > Setting
 
-The `wocss-settings-typography` module contains font size and weight `variables` for the framework. Feel free to reassign these variables.
+The `@wocss/settings-typography` module contains font size and weight `variables` for the framework. Feel free to reassign these variables.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-settings-typography --save
+$ npm install @wocss/settings-typography --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install wocss-settings-typography --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-settings-typography';
+@import '~@wocss/settings-typography';
 ```
 
 ### Variables

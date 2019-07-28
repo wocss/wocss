@@ -2,12 +2,12 @@
 
 > Tool
 
-The `wocss-tools-resets` module contains `mixins` that allows reset styles.
+The `@wocss/tools-resets` module contains `mixins` that allows reset styles.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-tools-resets --save
+$ npm install @wocss/tools-resets --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install wocss-tools-resets --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-tools-resets';
+@import '~@wocss/tools-resets';
 ```
 
 ### Mixins

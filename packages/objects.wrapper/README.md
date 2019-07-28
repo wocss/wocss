@@ -2,12 +2,12 @@
 
 > Object
 
-The `wocss-objects-wrapper` module contains the wrapper `object`.
+The `@wocss/objects-wrapper` module contains the wrapper `object`.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-objects-wrapper --save
+$ npm install @wocss/objects-wrapper --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install wocss-objects-wrapper --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-objects-wrapper';
+@import '~@wocss/objects-wrapper';
 ```
 
 Then you can use the `o-wrapper` class for a responsive fixed width container:
@@ -32,5 +32,5 @@ Then you can use the `o-wrapper` class for a responsive fixed width container:
 
 ## Dependencies
 
-* [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
-* [wocss-tools-layout](https://github.com/wocss/tools.layout)
+* [@wocss/tools-bem-constructor](https://github.com/wocss/wocss/tree/master/packages/tools.bem-constructor#readme)
+* [@wocss/tools-layout](https://github.com/wocss/wocss/tree/master/packages/tools.layout#readme)

@@ -1,10 +1,10 @@
 # Starter Kit
 
-The `wocss-starter-kit` simply ties together a few key dependencies that are usually the starting point for any new project.
+The `@wocss/starter-kit` simply ties together a few key dependencies that are usually the starting point for any new project.
 
-* [Global variables](https://github.com/wocss/settings.global)
-* [Colors variables](https://github.com/wocss/settings.colors)
-* [Typography variables](https://github.com/wocss/settings.typography)
+* [Global variables](https://github.com/wocss/wocss/tree/master/packages/settings.global#readme)
+* [Colors variables](https://github.com/wocss/wocss/tree/master/packages/settings.colors#readme)
+* [Typography variables](https://github.com/wocss/wocss/tree/master/packages/settings.typography#readme)
 * [Media queries mixins](https://github.com/sass-mq/sass-mq)
 * [Bem constructor mixins](https://github.com/danielguillan/bem-constructor)
 * [Sanitize.css](https://github.com/jonathantneal/sanitize.css)
@@ -12,7 +12,7 @@ The `wocss-starter-kit` simply ties together a few key dependencies that are usu
 Install using npm:
 
 ```sh
-$ npm install wocss-starter-kit --save
+$ npm install @wocss/starter-kit --save
 ```
 
 ## Usage
@@ -21,15 +21,15 @@ With a tool like [webpack](https://webpack.github.io/) you can import all module
 
 ```scss
 // SETTINGS
-@import "~wocss-settings-global";
-@import "~wocss-settings-colors";
-@import "~wocss-settings-breakpoints";
-@import "~wocss-settings-typography";
+@import "~@wocss/settings-global";
+@import "~@wocss/settings-colors";
+@import "~@wocss/settings-breakpoints";
+@import "~@wocss/settings-typography";
 
 // TOOLS
-@import '~wocss-tools-bem-constructor';
-@import '~wocss-tools-mq';
+@import '~@wocss/tools-bem-constructor';
+@import '~@wocss/tools-mq';
 
 // GENERIC
-@import '~wocss-generic-sanitize';
+@import '~@wocss/generic-sanitize';
 ```

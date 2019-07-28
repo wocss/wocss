@@ -2,12 +2,12 @@
 
 > Tool
 
-The `wocss-tools-layout` module contains a few `mixins` to help tame those layouts.
+The `@wocss/tools-layout` module contains a few `mixins` to help tame those layouts.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-tools-layout --save
+$ npm install @wocss/tools-layout --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install wocss-tools-layout --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-tools-layout';
+@import '~@wocss/tools-layout';
 ```
 
 ### Mixins
@@ -67,4 +67,4 @@ Result:
 
 ## Dependencies
 
-* [wocss-settings-global](https://github.com/wocss/settings.global)
+* [@wocss/settings-global](https://github.com/wocss/wocss/tree/master/packages/settings.global#readme)

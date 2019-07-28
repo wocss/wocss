@@ -2,12 +2,12 @@
 
 > Object
 
-The `wocss-objects-media` module contains the media `object`.
+The `@wocss/objects-media` module contains the media `object`.
 
 Install using npm:
 
 ```sh
-$ npm install wocss-objects-media --save
+$ npm install @wocss/objects-media --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install wocss-objects-media --save
 With a tool like [webpack](https://webpack.github.io/) you can import this module writing:
 
 ```scss
-@import '~wocss-objects-media';
+@import '~@wocss/objects-media';
 ```
 
 Then you can use the required classes:
@@ -54,5 +54,5 @@ For example:
 
 ## Dependencies
 
-* [wocss-settings-spaces](https://github.com/wocss/settings.spaces)
-* [wocss-tools-bem-constructor](https://github.com/wocss/tools.bem-constructor)
+* [@wocss/settings-spaces](https://github.com/wocss/wocss/tree/master/packages/settings.spaces#readme)
+* [@wocss/tools-bem-constructor](https://github.com/wocss/wocss/tree/master/packages/tools.bem-constructor#readme)
