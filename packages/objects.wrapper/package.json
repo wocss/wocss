@@ -1,6 +1,6 @@
 {
   "name": "@wocss/objects-wrapper",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "wocss' wrapper object",
   "main": "_objects.wrapper.scss",
   "keywords": [
@@ -24,7 +24,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@wocss/tools-bem-constructor": "^1.0.6",
-    "@wocss/tools-layout": "^2.2.2"
+    "@wocss/tools-bem-constructor": "^1.0.7",
+    "@wocss/tools-layout": "^2.2.3"
   }
 }

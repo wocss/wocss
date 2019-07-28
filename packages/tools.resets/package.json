@@ -1,6 +1,6 @@
 {
   "name": "@wocss/tools-resets",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "wocss' resets mixins",
   "main": "_tools.resets.scss",
   "keywords": [

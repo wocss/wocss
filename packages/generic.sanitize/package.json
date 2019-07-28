@@ -1,6 +1,6 @@
 {
   "name": "@wocss/generic-sanitize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom sanitize.css",
   "main": "_generic.sanitize.scss",
   "keywords": [

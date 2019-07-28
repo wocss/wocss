@@ -1,6 +1,6 @@
 {
   "name": "@wocss/objects-grid",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "wocss' system grid",
   "main": "_objects.grid.scss",
   "keywords": [
@@ -24,8 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@wocss/settings-spaces": "^2.0.2",
-    "@wocss/tools-bem-constructor": "^1.0.6",
-    "@wocss/tools-mq": "^1.1.2"
+    "@wocss/settings-spaces": "^2.0.3",
+    "@wocss/tools-bem-constructor": "^1.0.7",
+    "@wocss/tools-mq": "^1.1.3"
   }
 }

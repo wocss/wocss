@@ -1,6 +1,6 @@
 {
   "name": "@wocss/settings-colors",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Colors variables",
   "main": "_settings.colors.scss",
   "keywords": [

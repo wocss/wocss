@@ -1,6 +1,6 @@
 {
   "name": "@wocss/starter-kit",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "wocss starter kit",
   "keywords": [
     "bemit",
@@ -23,11 +23,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@wocss/generic-sanitize": "^1.0.0",
-    "@wocss/settings-breakpoints": "^2.0.2",
-    "@wocss/settings-colors": "^2.0.1",
-    "@wocss/settings-typography": "^2.0.0",
-    "@wocss/tools-bem-constructor": "^1.0.4",
-    "@wocss/tools-mq": "^1.1.0"
+    "@wocss/generic-sanitize": "^1.0.3",
+    "@wocss/settings-breakpoints": "^2.0.5",
+    "@wocss/settings-colors": "^2.0.4",
+    "@wocss/settings-typography": "^2.0.3",
+    "@wocss/tools-bem-constructor": "^1.0.7",
+    "@wocss/tools-mq": "^1.1.3"
   }
 }
