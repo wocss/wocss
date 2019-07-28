@@ -20,6 +20,9 @@
     "url": "https://github.com/wocss/wocss/issues"
   },
   "homepage": "https://github.com/wocss/wocss/tree/master/packages/tools.mq#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@wocss/settings-breakpoints": "^2.0.3",
     "sass-mq": "^3.2.9"

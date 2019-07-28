@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/wocss/wocss/issues"
   },
-  "homepage": "https://github.com/wocss/wocss/tree/master/packages/elements.table#readme"
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/elements.table#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

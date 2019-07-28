@@ -20,6 +20,9 @@
     "url": "https://github.com/wocss/wocss/issues"
   },
   "homepage": "https://github.com/wocss/wocss/tree/master/packages/objects.wrapper#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@wocss/tools-bem-constructor": "^1.0.5",
     "@wocss/tools-layout": "^2.2.1"

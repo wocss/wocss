@@ -20,6 +20,9 @@
     "url": "https://github.com/wocss/wocss/issues"
   },
   "homepage": "https://github.com/wocss/wocss/tree/master/packages/utilities.basscss#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@wocss/settings-colors": "^2.0.2",
     "@wocss/settings-global": "^1.3.0",

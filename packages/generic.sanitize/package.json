@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wocss/wocss/issues"
   },
-  "homepage": "https://github.com/wocss/wocss/tree/master/packages/generic.sanitize#readme"
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/generic.sanitize#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

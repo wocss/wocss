@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/wocss/wocss/issues"
   },
-  "homepage": "https://github.com/wocss/wocss/tree/master/packages/settings.typography#readme"
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/settings.typography#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
