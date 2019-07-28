@@ -1,12 +1,8 @@
 {
-  "name": "wocss-tools-bem-constructor",
+  "name": "@wocss/tools-bem-constructor",
   "version": "1.0.4",
   "description": "bem-constructor wrapper",
   "main": "_tools.bem-constructor.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/tools.bem-constructor.git"
-  },
   "keywords": [
     "bemit",
     "css",
@@ -14,12 +10,17 @@
     "sass",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/tools.bem-constructor/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/tools.bem-constructor"
   },
-  "homepage": "https://github.com/wocss/tools.bem-constructor#readme",
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/tools.bem-constructor#readme",
   "dependencies": {
     "sass-bem-constructor": "^1.1.0"
   }

@@ -1,12 +1,8 @@
 {
-  "name": "wocss-settings-spaces",
+  "name": "@wocss/settings-spaces",
   "version": "2.0.0",
   "description": "Gutter variables",
   "main": "_settings.spaces.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/settings.spaces.git"
-  },
   "keywords": [
     "bemit",
     "css",
@@ -14,10 +10,15 @@
     "sass",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/settings.spaces/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/settings.spaces"
   },
-  "homepage": "https://github.com/wocss/settings.spaces#readme"
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/settings.spaces#readme"
 }

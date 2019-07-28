@@ -1,12 +1,8 @@
 {
-  "name": "wocss-settings-typography",
+  "name": "@wocss/settings-typography",
   "version": "2.0.0",
   "description": "Font size and weight variables",
   "main": "_settings.typography.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/settings.typography.git"
-  },
   "keywords": [
     "bemit",
     "css",
@@ -14,10 +10,15 @@
     "sass",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/settings.typography/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/settings.typography"
   },
-  "homepage": "https://github.com/wocss/settings.typography#readme"
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/settings.typography#readme"
 }

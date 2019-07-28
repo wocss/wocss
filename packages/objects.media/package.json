@@ -1,12 +1,8 @@
 {
-  "name": "wocss-objects-media",
+  "name": "@wocss/objects-media",
   "version": "2.0.0",
   "description": "wocss' media object",
   "main": "_objects.media.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/objects.media.git"
-  },
   "keywords": [
     "bemit",
     "css",
@@ -14,14 +10,19 @@
     "sass",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/objects.media/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/objects.media"
   },
-  "homepage": "https://github.com/wocss/objects.media#readme",
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/objects.media#readme",
   "dependencies": {
-    "wocss-settings-spaces": "^2.0.0",
-    "wocss-tools-bem-constructor": "^1.0.1"
+    "@wocss/settings-spaces": "^2.0.0",
+    "@wocss/tools-bem-constructor": "^1.0.1"
   }
 }

@@ -1,31 +1,32 @@
 {
-  "name": "wocss-utilities-basscss",
+  "name": "@wocss/utilities-basscss",
   "version": "3.1.1",
   "description": "BassCSS port",
   "main": "src/_utilities.basscss.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/utilities.basscss.git"
-  },
   "keywords": [
     "bemit",
     "itcss",
     "scss",
     "wocss"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/utilities.basscss"
+  },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wocss/utilities.basscss/issues"
+    "url": "https://github.com/wocss/wocss/issues"
   },
-  "homepage": "https://github.com/wocss/utilities.basscss#readme",
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/utilities.basscss#readme",
   "dependencies": {
-    "wocss-settings-colors": "^2.0.1",
-    "wocss-settings-global": "^1.0.0",
-    "wocss-settings-spaces": "^2.0.0",
-    "wocss-settings-typography": "^2.0.0",
-    "wocss-tools-bem-constructor": "^1.0.1",
-    "wocss-tools-mq": "^1.1.0",
-    "wocss-tools-resets": "^2.0.0"
+    "@wocss/settings-colors": "^2.0.1",
+    "@wocss/settings-global": "^1.0.0",
+    "@wocss/settings-spaces": "^2.0.0",
+    "@wocss/settings-typography": "^2.0.0",
+    "@wocss/tools-bem-constructor": "^1.0.1",
+    "@wocss/tools-mq": "^1.1.0",
+    "@wocss/tools-resets": "^2.0.0"
   }
 }

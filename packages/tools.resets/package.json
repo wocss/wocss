@@ -1,22 +1,23 @@
 {
-  "name": "wocss-tools-resets",
+  "name": "@wocss/tools-resets",
   "version": "2.0.1",
   "description": "wocss' resets mixins",
   "main": "_tools.resets.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/tools.resets.git"
-  },
   "keywords": [
     "bemit",
     "itcss",
     "scss",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/tools.resets/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/tools.resets"
   },
-  "homepage": "https://github.com/wocss/tools.resets#readme"
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/tools.resets#readme"
 }

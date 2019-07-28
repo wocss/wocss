@@ -1,26 +1,27 @@
 {
-  "name": "wocss-objects-wrapper",
+  "name": "@wocss/objects-wrapper",
   "version": "2.0.0-0",
   "description": "wocss' wrapper object",
   "main": "_objects.wrapper.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/objects.wrapper.git"
-  },
   "keywords": [
     "bemit",
     "itcss",
     "scss",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/objects.wrapper/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/objects.wrapper"
   },
-  "homepage": "https://github.com/wocss/objects.wrapper#readme",
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/objects.wrapper#readme",
   "dependencies": {
-    "wocss-tools-bem-constructor": "^1.0.1",
-    "wocss-tools-layout": "^2.0.0"
+    "@wocss/tools-bem-constructor": "^1.0.1",
+    "@wocss/tools-layout": "^2.0.0"
   }
 }

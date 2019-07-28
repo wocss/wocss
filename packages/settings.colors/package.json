@@ -1,12 +1,8 @@
 {
-  "name": "wocss-settings-colors",
+  "name": "@wocss/settings-colors",
   "version": "2.0.1",
   "description": "Colors variables",
   "main": "_settings.colors.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/settings.colors.git"
-  },
   "keywords": [
     "bemit",
     "css",
@@ -14,10 +10,15 @@
     "sass",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/settings.colors/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/settings.colors"
   },
-  "homepage": "https://github.com/wocss/settings.colors#readme"
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/settings.colors#readme"
 }

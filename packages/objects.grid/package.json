@@ -1,27 +1,28 @@
 {
-  "name": "wocss-objects-grid",
+  "name": "@wocss/objects-grid",
   "version": "4.0.1",
   "description": "wocss' system grid",
   "main": "_objects.grid.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/objects.grid.git"
-  },
   "keywords": [
     "bemit",
     "scss",
     "itcss",
     "wocss"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/objects.grid"
+  },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wocss/objects.grid/issues"
+    "url": "https://github.com/wocss/wocss/issues"
   },
-  "homepage": "https://github.com/wocss/objects.grid#readme",
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/objects.grid#readme",
   "dependencies": {
-    "wocss-settings-spaces": "^2.0.0",
-    "wocss-tools-bem-constructor": "^1.0.1",
-    "wocss-tools-mq": "^1.1.0"
+    "@wocss/settings-spaces": "^2.0.0",
+    "@wocss/tools-bem-constructor": "^1.0.1",
+    "@wocss/tools-mq": "^1.1.0"
   }
 }

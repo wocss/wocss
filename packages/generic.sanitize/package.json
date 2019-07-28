@@ -1,22 +1,23 @@
 {
-  "name": "wocss-generic-sanitize",
+  "name": "@wocss/generic-sanitize",
   "version": "1.0.0",
   "description": "Custom sanitize.css",
   "main": "_generic.sanitize.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/generic.sanitize.git"
-  },
   "keywords": [
     "bemit",
     "itcss",
     "scss",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/generic.sanitize/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/generic.sanitize"
   },
-  "homepage": "https://github.com/wocss/generic.sanitize#readme"
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/generic.sanitize#readme"
 }

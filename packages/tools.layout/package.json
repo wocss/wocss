@@ -1,25 +1,26 @@
 {
-  "name": "wocss-tools-layout",
+  "name": "@wocss/tools-layout",
   "version": "2.2.0",
   "description": "wocss' layout mixins",
   "main": "_tools.layout.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wocss/tools.layout.git"
-  },
   "keywords": [
     "bemit",
     "scss",
     "itcss",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wocss/tools.layout/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/tools.layout"
   },
-  "homepage": "https://github.com/wocss/tools.layout#readme",
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/tools.layout#readme",
   "dependencies": {
-    "wocss-settings-global": "^1.1.0"
+    "@wocss/settings-global": "^1.1.0"
   }
 }

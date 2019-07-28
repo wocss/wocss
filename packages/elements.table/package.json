@@ -3,10 +3,6 @@
   "version": "2.0.0",
   "description": "Table base-level styling",
   "main": "_elements.table.scss",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wochap/elements.table.git"
-  },
   "keywords": [
     "bemit",
     "css",
@@ -14,10 +10,15 @@
     "sass",
     "wocss"
   ],
-  "author": "Gean Carlos <gean.marroquin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wochap/elements.table/issues"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wocss/wocss.git",
+    "directory": "packages/elements.table"
   },
-  "homepage": "https://github.com/wochap/elements.table#readme"
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wocss/wocss/issues"
+  },
+  "homepage": "https://github.com/wocss/wocss/tree/master/packages/elements.table#readme"
 }
