@@ -15,6 +15,7 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
@@ -25,8 +26,8 @@
     "lerna": "^3.16.1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/wocss/wocss.git"
+    "type": "git",
+    "url": "https://github.com/wocss/wocss.git"
   },
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "MIT",
