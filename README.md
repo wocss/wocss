@@ -1,36 +1,24 @@
-# wocss
+# wocss [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+> Personal sass modules collection "inspired" by inuitcss
 
-Personal sass modules collection "inspired" by inuitcss
+## Usage
 
-## Project setup
-```
-npm install
-lerna bootstrap
-```
+-   `npm install`
+-   `lerna bootstrap` - Link local packages together and install remaining package dependencies.
+-   `npm run commit` - Commit your changes using [commitizen](https://github.com/commitizen/cz-cli).
 
-## Development
+## Releasing
 
-### Update packages (with changes) version and changelog, push changes
-```
-npm run new-version
-```
+-   `lerna publish from-package` - Publish packages to npm
+-   `npm run new-version` - Bump version of packages changed since the last release and generate changelog.
 
-### Commit your changes using [commitizen](https://github.com/commitizen/cz-cli)
-```
-npm run commit
-```
+## Lerna
 
-## Troubleshooting
+-   `lerna changed` - Show which packages have changed.
+-   `lerna diff` - Show specifically what files have cause the packages to change.
 
-### Commit without validation
-```
-git commit -m "..." --no-verify
-```
-
-### Commit message format
+## Commit message format
 ```
 feat(elements-table): add hat wobble
 ^--^ ^------------^   ^------------^
@@ -39,4 +27,11 @@ feat(elements-table): add hat wobble
 |    +------------------> Scope: folder name of package in kebab-case (e.g. elements-table)
 |
 +-----------------------> Type: chore, docs, feat, fix, refactor, style, or test.
+```
+
+## Troubleshooting
+
+### Commit without validation
+```
+git commit -m "..." --no-verify
 ```
