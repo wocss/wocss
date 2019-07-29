@@ -11,7 +11,7 @@
 ## Releasing
 
 -   `npm run new-version` - Bump version of packages changed since the last release and generate changelog.
--   `lerna publish from-package` - Publish packages to npm
+-   `npm run release` - Publish packages to npm
 
 ## Lerna
 
